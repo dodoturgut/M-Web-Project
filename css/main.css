@@ -86,6 +86,21 @@ a {
     padding: 70px;
 }
 
+.consultancyIcon {
+    position: absolute;
+    color: #3E1DA4;
+}
+
+.consultancyGridContent {
+    text-align: left;
+    margin-top: 75%;
+}
+
+.consultancyGridContent2 {
+    text-align: left;
+    margin-top: 25%;
+}
+
 .consultancyGridButton .buttonArea {
     margin-top: 50px;
 }
