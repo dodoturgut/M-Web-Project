@@ -9,7 +9,6 @@
     position: absolute;
     top: 40%;
     color: white;
-    text-align: center;
     display: flex;
     justify-content: space-between;
 }
