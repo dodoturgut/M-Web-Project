@@ -1,0 +1,16 @@
+.docs li p {
+    display:inline;
+    font-size:20px;
+}
+.docs li img {
+    margin-left: 600px;
+    width:4%;
+    
+}
+.docs ul {
+    list-style-type:none;
+    padding:0;
+}
+.docs .m-50{
+    margin-left:50px;
+}
