@@ -14,12 +14,23 @@ contact-info p {
 	
 }
 .contact-info img{
-	margin-top:-30px;
+	width:100px;
 }
+
+.userInfo{
+	margin-top:15px;
+}
+
+.userImg{
+	display:flex;
+	justify-content:flex-end;
+}
+
 .center {
 	text-align:center;
 }
 .center p{
 	text-align: left;
+	margin:0;
 }
 
