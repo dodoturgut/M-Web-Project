@@ -24,6 +24,7 @@ contact-info p {
 .userImg{
 	display:flex;
 	justify-content:flex-end;
+	float:left;
 }
 
 .center {

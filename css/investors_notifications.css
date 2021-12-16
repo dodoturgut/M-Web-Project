@@ -4,9 +4,77 @@
 }
 .docs li img {
     margin-left: 600px;
-    width:4%;
+    width: 4%;
+   
+}
+@media only screen and (max-width: 523px) {
+    .docs li img {
+        margin-left: 0;
+    }
+
+    .docs li {
+        display: inline;
+    }
+
+    .docs {
+        width: 100%;
+    }
+    .media {
+        width:100;
+    }
     
 }
+@media only screen and (max-width: 767px) {
+    .docs li img {
+        margin-left: 0;
+        
+    }
+    .docs li {
+        display: inline;
+    }
+    .docs {
+        width: 100%;
+    }
+     .media {
+        width: 100%;
+    }
+    .
+    
+}
+@media only screen and (max-width: 992px) {
+    .docs li img {
+        margin-left: 0;
+     
+    }
+    .docs li {
+        display: inline;
+    }
+    .docs {
+        width: 100%;
+    }
+    .media {
+        width: 100%;
+    }
+   
+}
+@media only screen and (max-width: 1360px) {
+    .docs li img {
+        margin-left: 0;
+      
+    }
+    .docs li {
+        display: inline;
+    }
+    .docs{
+        width:100%;
+    }
+    .media {
+        width: 100%;
+    }
+    
+   
+}
+
 .docs ul {
     list-style-type:none;
     padding:0;
