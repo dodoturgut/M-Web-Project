@@ -7,7 +7,7 @@
 .keyHeadText {
     width:80%;
     position: absolute;
-    top: 40%;
+    top: 270px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -15,6 +15,7 @@
     .keyHeadText .p-left {
         font-size: 50px;
         font-weight:600;
+
     }
 
     .keyHeadText .p-left span{
@@ -23,6 +24,10 @@
 
     .keyHeadText .p-right {
         font-size: 15px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 .keyHeader{
@@ -65,7 +70,6 @@
 
         .reports .reportBoxes .reportsBox {
             display:grid;
-            width: 80%;
             margin: 10px;
             padding:0;
             background-color: white;
@@ -136,5 +140,33 @@
 @media only screen and (max-width: 992px) {
     .keyBoxes .keyBox{
         margin-top:10px;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .keyHeadText {
+        display: flex;
+        flex-wrap: wrap;
+        top:100px;
+    }
+        .keyHeadText .p-left {
+            font-weight: 600;
+            font-size: 25px;
+        }
+    .reports .reportBoxes {
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .keyHeadText .p-left span {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .keyHeadText .p-right {
+            font-size: 15px;
+        }
+    .reports .reportBoxes .reportsBox {
+        margin: 20px;
     }
 }
