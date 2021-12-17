@@ -14,8 +14,8 @@ a {
         text-decoration: none;
     }
 
-.w-25{
-    width:25%;
+.w-25 {
+    width: 25%;
 }
 
 .w-50 {
@@ -306,7 +306,7 @@ a {
 }
 
 .bir {
-    height: 318px;
+    height: 346px;
 }
 
 .kvkk ul li {
@@ -365,6 +365,10 @@ hr.new1 {
     text-align: center;
     color: white;
     font-weight: 100;
+}
+
+.paddingTop200 {
+    padding-top: 200px;
 }
 
 .footer5 {
@@ -660,7 +664,7 @@ hr.new1 {
 
 .insightsLeft {
     height: 650px;
-    width: 30%;
+    width: 33%;
     background-color: #EF4436;
     position: absolute;
     left: 0;
@@ -668,8 +672,11 @@ hr.new1 {
 }
 
     .insightsLeft .head {
-        margin-left: 63%;
+        position: absolute;
+        right: 40%;
         color: white;
+        top: 0;
+        font-weight: 700;
     }
 
     .insightsLeft .head2 {
@@ -682,8 +689,11 @@ hr.new1 {
     .insightsLeft .text {
         transform: rotate(-90deg);
         color: white;
-        margin-top: 55%;
-        margin-left: 10%;
+        /* margin-top: 55%; */
+        /* margin-left: 10%; */
+        position: absolute;
+        top: 65%;
+        left: 5%;
     }
 
 .insights {
@@ -692,14 +702,14 @@ hr.new1 {
 
 
 .insight1 {
-    height: 400px;
+    height: 537px;
     margin-top: 5%;
     z-index: 999;
     right: 2%;
 }
 
     .insight1 .shadow {
-        height: 400px;
+        height: 537px;
         width: 100%;
         position: absolute;
         z-index: 99;
@@ -708,7 +718,7 @@ hr.new1 {
 
     .insight1 .image {
         width: 100%;
-        height: 400px;
+        height: 537px;
         position: absolute;
     }
 
@@ -727,190 +737,44 @@ hr.new1 {
     }
 
     .insight1 .insightHead {
-        margin-top: 210px;
         z-index: 999;
+        bottom: 15%;
         position: absolute;
     }
+
+        .insight1 .insightHead h2 {
+            font-size: 45px;
+        }
+
+        .insight1 .insightHead h4 {
+            font-size: 24px;
+        }
 
     .insight1 .insightContent {
         padding-right: 20px;
-        margin-top: 280px;
         z-index: 999;
         position: absolute;
+        bottom: 2%;
     }
 
-.insight2 {
-    margin-top: 5%;
-    z-index: 999;
-    height: 400px;
-}
-
-    .insight2 .insightContentDifferent {
-        z-index: 999;
-        position: absolute;
-        right: 0;
-        left: 22%;
-        top: 20%;
-        bottom: 0;
-    }
-
-        .insight2 .insightContentDifferent li {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-size: 18px;
-            list-style: none;
+        .insight1 .insightContent p {
+            font-size: 19px;
+            font-weight: 300;
         }
 
-    .insight2 .insightHeadDifferent {
-        z-index: 999;
-        position: absolute;
-        right: 0;
-        left: 32%;
-        top: 10%;
-        bottom: 0;
-    }
-
-    .insight2 .shadow {
-        height: 400px;
-        width: 100%;
-        position: absolute;
-        display: block;
-        z-index: 99;
-    }
-
-    .insight2 .image {
-        width: 100%;
-        height: 400px;
-        position: absolute;
-    }
-
-    .insight2 .insightHeader2 {
-        position: absolute;
-        left: 7%;
-        top: 2%;
-        color: white;
-    }
-
-    .insight2 .insightText2 {
-        padding: 20px;
-        color: white;
-        opacity: 1;
-        z-index: 999;
-        transition: transform .4s;
-    }
-
-    .insight2 .insightHead2 {
-        padding-right: 20px;
-        margin-top: 280px;
-        z-index: 999;
-        position: absolute;
-    }
-
-    .insight2 .insightContent2 {
-        padding-right: 20px;
-        margin-top: 320px;
-        z-index: 999;
-        position: absolute;
-    }
-
-.insight3 {
-    margin-top: 1%;
-    z-index: 999;
-    right: 2%;
+.cxSol h2 {
+    font-size: 45px;
 }
 
-    .insight3 .shadow {
-        height: 300px;
-        width: 100%;
-        position: absolute;
-        z-index: 99;
-        display: block;
-    }
-
-    .insight3 .image {
-        width: 100%;
-        height: 300px;
-        position: absolute;
-    }
-
-    .insight3 .insightHeader3 {
-        position: absolute;
-        left: 4%;
-        top: 15%;
-        color: white;
-    }
-
-    .insight3 .insightText3 {
-        padding: 20px;
-        color: white;
-        opacity: 1;
-        transition: transform .4s;
-    }
-
-    .insight3 .insightHead3 {
-        padding-right: 20px;
-        margin-top: 200px;
-        z-index: 999;
-        position: absolute;
-    }
-
-    .insight3 .insightContent3 {
-        padding-right: 20px;
-        margin-top: 240px;
-        z-index: 999;
-        position: absolute;
-    }
-
-.insight4 {
-    margin-top: 1%;
-    z-index: 999;
+.cxSol p {
+    font-size: 27px;
+    font-weight: 300;
 }
-
-    .insight4 .shadow {
-        height: 300px;
-        width: 100%;
-        position: absolute;
-        z-index: 99;
-        display: block;
-    }
-
-    .insight4 .image {
-        width: 100%;
-        height: 300px;
-        position: absolute;
-    }
-
-    .insight4 .insightHeader4 {
-        position: absolute;
-        left: 4%;
-        top: 15%;
-        color: white;
-    }
-
-    .insight4 .insightText4 {
-        padding: 20px;
-        color: white;
-        opacity: 1;
-        transition: transform .4s;
-    }
-
-    .insight4 .insightHead4 {
-        padding-right: 20px;
-        margin-top: 200px;
-        z-index: 999;
-        position: absolute;
-    }
-
-    .insight4 .insightContent4 {
-        padding-right: 20px;
-        margin-top: 240px;
-        z-index: 999;
-        position: absolute;
-    }
 
 .solutionHeader {
     float: left;
     text-align: center;
+    font-size: 29px;
 }
 
 .solution-blue {
@@ -946,7 +810,7 @@ hr.new1 {
 
 .imgGrid {
     width: 100%;
-    height: 337px;
+    height: 490px;
 }
 
 .grid {
@@ -1011,15 +875,20 @@ hr.new1 {
 
 .gridBox {
     width: 100%;
-    max-height: 337px;
+    height: 490px;
     z-index: 99;
 }
 
     .gridBox .header {
         color: white;
         padding: 30px;
-        padding-top: 150px;
+        padding-top: 250px;
     }
+
+        .gridBox .header h3 {
+            font-size: 29px;
+            font-weight: 700;
+        }
 
     .gridBox .text {
         text-align: left;
@@ -1028,6 +897,11 @@ hr.new1 {
         font-size: 12px;
         margin-top: -50px;
     }
+
+        .gridBox .text p {
+            font-size: 19px;
+            font-weight: 300;
+        }
 
     .gridBox .buttonArea {
         padding: 30px;
@@ -1047,27 +921,6 @@ hr.new1 {
     }
 
 .one:hover .insightText {
-    transform: translateY(-100%);
-    opacity: 1;
-    transition: 1s ease;
-    z-index: 999;
-}
-
-.one:hover .insightText2 {
-    transform: translateY(-100%);
-    opacity: 1;
-    transition: 1s ease;
-    z-index: 999;
-}
-
-.one:hover .insightText3 {
-    transform: translateY(-100%);
-    opacity: 1;
-    transition: 1s ease;
-    z-index: 999;
-}
-
-.one:hover .insightText4 {
     transform: translateY(-100%);
     opacity: 1;
     transition: 1s ease;
@@ -1116,6 +969,11 @@ hr.new1 {
     font-weight: 500;
 }
 
+    .exploresHeader h4 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
 .exp-blue {
     color: #29abe2;
 }
@@ -1130,9 +988,9 @@ hr.new1 {
 
 
 .exploresText {
-    font-size: 26px;
-    line-height: 28px;
-    font-weight: 400;
+    font-size: 41px;
+    line-height: 36px;
+    font-weight: 300;
 }
 
 .exploresHeader2 {
@@ -1140,12 +998,17 @@ hr.new1 {
     font-weight: 500;
 }
 
+    .exploresHeader2 h4 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
     .exploresHeader2 img {
         width: 20%;
     }
 
 .exploresText2 {
-    font-size: 16px;
+    font-size: 27px;
     line-height: 16px;
     font-weight: 100;
 }
@@ -1203,26 +1066,38 @@ hr.new1 {
 
 .contactLeft {
     background-color: #3E1DA4;
-    height: 500px;
+    height: 750px;
 }
 
 .contactMiniHead {
     color: #F9BC02;
 }
 
+    .contactMiniHead h4 {
+        font-size: 29px;
+    }
+
 .contactHead {
     color: white;
 }
+
+    .contactHead h2 {
+        font-size: 45px;
+    }
 
 .contactText {
     padding: 50px;
     padding-left: 0px;
     color: white;
-    line-height: 16px;
 }
 
+    .contactText p {
+        font-size: 27px;
+        font-weight: 300;
+    }
+
 .contactRight img {
-    max-height: 585px;
+    height: 750px;
     width: 100%;
 }
 
@@ -2025,119 +1900,6 @@ box01-blue {
         }
 
         .insight1 .insightHeader {
-            position: absolute;
-            margin-left: 3%;
-            left: unset;
-            margin-top: 2%;
-            top: unset;
-            color: white;
-        }
-
-    .insight2 {
-        height: 400px;
-        margin-top: 5%;
-        position: unset;
-        z-index: 999;
-    }
-
-        .insight2 .image {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
-
-        .insight2 .shadow {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
-
-        .insight2 .insightHeader2 {
-            position: absolute;
-            margin-left: 3%;
-            left: unset;
-            margin-top: 2%;
-            top: unset;
-            color: white;
-        }
-
-    .insight3 {
-        height: 400px;
-        margin-top: 5%;
-        position: unset;
-        z-index: 999;
-    }
-
-        .insight3 .image {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
-
-        .insight3 .shadow {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
-
-        .insight3 .insightHead3 {
-            padding-right: 20px;
-            margin-top: 280px;
-            z-index: 999;
-            position: absolute;
-        }
-
-        .insight3 .insightContent3 {
-            padding-right: 20px;
-            margin-top: 320px;
-            z-index: 999;
-            position: absolute;
-        }
-
-        .insight3 .insightHeader3 {
-            position: absolute;
-            margin-left: 3%;
-            left: unset;
-            margin-top: 2%;
-            top: unset;
-            color: white;
-        }
-
-
-    .insight4 {
-        height: 400px;
-        margin-top: 5%;
-        position: unset;
-        z-index: 999;
-    }
-
-        .insight4 .image {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
-
-        .insight4 .shadow {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
-
-        .insight4 .insightHead4 {
-            padding-right: 20px;
-            margin-top: 280px;
-            z-index: 999;
-            position: absolute;
-        }
-
-        .insight4 .insightContent4 {
-            padding-right: 20px;
-            margin-top: 320px;
-            z-index: 999;
-            position: absolute;
-        }
-
-        .insight4 .insightHeader4 {
             position: absolute;
             margin-left: 3%;
             left: unset;
