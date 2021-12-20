@@ -30,8 +30,13 @@
 .grid-text-margin{
     margin-top:10px !important;
 }
-.header-top .header{
+.header-top .header3{
     color: white;
     padding: 30px;
     padding-top: 30px !important;
+}
+.gridBox .header3 {
+    color: white;
+    padding: 30px;
+    padding-top: 140px;
 }
