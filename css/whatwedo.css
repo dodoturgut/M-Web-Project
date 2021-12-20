@@ -1,0 +1,37 @@
+.vision-left {
+    style =margin:0;
+    font-size:29px;
+}
+.vision-right {
+    style:margin:0;
+    font-size: 45px;
+}
+.vision-width{
+    width:90%;
+}
+.services-up {
+    color: #EF4436;
+    font-size:29px !important;
+
+}
+.services-down {
+    font-size:45px !important;
+
+}
+.services-width{
+    width:90%;
+}
+.grid-width {
+    width:90%;
+}
+.grid-height{
+    max-height:488px;
+}
+.grid-text-margin{
+    margin-top:10px !important;
+}
+.header-top .header{
+    color: white;
+    padding: 30px;
+    padding-top: 30px !important;
+}
