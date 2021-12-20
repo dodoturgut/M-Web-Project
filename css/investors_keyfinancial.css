@@ -143,19 +143,25 @@
     }
 }
 
+@media only screen and (max-width: 767px) {
+
+}
+
 @media only screen and (max-width: 523px) {
     .keyHeadText {
         display: flex;
         flex-wrap: wrap;
-        top:100px;
+        top: 100px;
     }
+
         .keyHeadText .p-left {
             font-weight: 600;
             font-size: 25px;
         }
+
     .reports .reportBoxes {
-        display:flex;
-        flex-wrap:wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .keyHeadText .p-left span {
@@ -163,9 +169,10 @@
         flex-wrap: wrap;
     }
 
-        .keyHeadText .p-right {
-            font-size: 15px;
-        }
+    .keyHeadText .p-right {
+        font-size: 15px;
+    }
+
     .reports .reportBoxes .reportsBox {
         margin: 20px;
     }
