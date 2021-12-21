@@ -1,5 +1,51 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
+/*CONTAİNERS*/
+.doubleText {
+    width: 80%
+}
+
+    .doubleText h2 {
+        font-size: 45px;
+    }
+
+    .doubleText h3 {
+        font-size: 29px;
+    }
+
+.multipleContainer {
+    width: 90%;
+}
+
+.steps {
+    width: 90%;
+}
+
+.humanCentric {
+    width: 90%;
+}
+
+.contactSales {
+    width: 90%;
+}
+
+.insightContainer {
+    width: 70%;
+}
+
+.services {
+    width: 90%;
+}
+
+    .services .servicesHeader h2 {
+        font-size: 45px
+    }
+
+    .services .servicesHeader h4 {
+        font-size: 27px;
+    }
+/*CONTAİNERS*/
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
@@ -218,11 +264,17 @@ a {
     padding: 70px;
 }
 
+    .borderRightText h2 {
+        font-size: 45px;
+        font-weight: 100;
+    }
+
     .borderRightText li {
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 28px;
         list-style: none;
+        font-weight: 100;
     }
 
         .borderRightText li::before {
@@ -239,14 +291,14 @@ a {
 
 .borderTop {
     position: absolute;
-    right: 2%;
+    right: 1%;
     top: -1%;
     width: 50%;
 }
 
 .borderBottom {
     position: absolute;
-    left: 2%;
+    left: 1%;
     bottom: -1%;
     width: 50%;
 }
@@ -306,7 +358,7 @@ a {
 }
 
 .bir {
-    height: 346px;
+    height: 373px;
 }
 
 .kvkk ul li {
@@ -365,10 +417,6 @@ hr.new1 {
     text-align: center;
     color: white;
     font-weight: 100;
-}
-
-.paddingTop200 {
-    padding-top: 200px;
 }
 
 .footer5 {
@@ -559,6 +607,40 @@ hr.new1 {
     height: 450px;
 }
 
+.boxHeadTxt {
+    text-align: center;
+    position: absolute;
+    background-color: #ff4336;
+    border-radius: 25px;
+    width: 244px;
+    height: 46px;
+    top: 2%;
+    right: 8%;
+}
+
+    .boxHeadTxt p {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+.boxHead img {
+    width: 100%;
+    height: 465px;
+}
+
+
+.boxHead .imageText {
+    position: absolute;
+    top: auto;
+    font-size: 16px;
+    left: 8%;
+    bottom: 0;
+}
+
 .boxHeadTxtmobile {
     text-align: center;
     position: absolute;
@@ -570,61 +652,8 @@ hr.new1 {
     right: 8%;
 }
 
-.boxHeadTxt {
-    text-align: center;
-    position: absolute;
-    background-color: #ff4336;
-    border-radius: 25px;
-    width: 160px;
-    height: 30px;
-    top: 2%;
-}
-
-    .boxHeadTxt p {
-        color: white;
-        font-size: 12px;
-    }
-
-.boxHeadTxt2 {
-    text-align: center;
-    position: absolute;
-    background-color: #67b132;
-    border-radius: 25px;
-    width: 160px;
-    height: 30px;
-    top: 2%;
-}
-
-    .boxHeadTxt2 p {
-        color: white;
-        font-size: 12px;
-    }
-
-.boxHeadTxt3 {
-    text-align: center;
-    position: absolute;
-    background-color: #3f1da4;
-    border-radius: 25px;
-    width: 160px;
-    height: 30px;
-    top: 2%;
-}
-
-    .boxHeadTxt3 p {
-        color: white;
-        font-size: 12px;
-    }
-
-.boxHead img {
-    width: 100%;
-    height: 300px;
-}
-
-.imageText {
-    position: absolute;
-    top: 50%;
-    font-size: 16px;
-    left: 8%;
+.imageText p {
+    font-size: 25px;
 }
 
 .imageTextmobile {
@@ -646,8 +675,7 @@ hr.new1 {
 }
 
     .boxFoot p {
-        font-size: 12px;
-        padding: 15px;
+        font-size: 19px;
     }
 
     .boxFoot button {
@@ -655,12 +683,12 @@ hr.new1 {
         border-style: solid;
         height: 45px;
         width: 170px;
-        font-size: 16px;
+        font-size: 19px;
         font-weight: 800;
     }
 
 .insightsLeft {
-    height: 650px;
+    height: 836px;
     width: 33%;
     background-color: #EF4436;
     position: absolute;
@@ -698,11 +726,25 @@ hr.new1 {
 }
 
 
+.insightDis {
+    margin-top: 20px;
+    padding: 0;
+}
+
+    .insightDis h2 {
+        font-size: 36px;
+        color: white;
+        font-weight: 400;
+    }
+
+    .insightDis span {
+        color: red;
+    }
+
 .insight1 {
     height: 537px;
-    margin-top: 5%;
     z-index: 999;
-    right: 2%;
+    right: 1%;
 }
 
     .insight1 .shadow {
@@ -780,6 +822,7 @@ hr.new1 {
 
 .solution-lightblue {
     color: #29ABE2;
+    font-size: 29px;
 }
 
 .solution-green {
@@ -793,7 +836,7 @@ hr.new1 {
 }
 
 .container1 {
-    height: 1050px;
+    height: 1234px;
 }
 
 .m-0 {
@@ -840,6 +883,14 @@ hr.new1 {
 
 .renk6 {
     background-color: #072C50;
+}
+
+.renk7 {
+    background-color: #3f1da4;
+}
+
+.renk7 {
+    background-color: #67b132;
 }
 
 .test2 .buttonArea {
@@ -1057,11 +1108,19 @@ hr.new1 {
         background-color: #ffffff00;
     }
 
+.paddingTop200 {
+    padding-top: 200px;
+}
+
 .paddingTop100 {
     padding-top: 100px;
 }
 
 .paddingBottom100 {
+    padding-bottom: 100px;
+}
+
+.paddingBottom200 {
     padding-bottom: 100px;
 }
 
@@ -1631,7 +1690,7 @@ box01-blue {
     }
 
     .bir {
-        height: 218px;
+        height: 373px
     }
 
     .headText {
@@ -1858,29 +1917,6 @@ box01-blue {
         top: 12%;
     }
 
-    .boxHeadTxt2 {
-        text-align: center;
-        position: absolute;
-        background-color: #67b132;
-        border-radius: 25px;
-        width: 160px;
-        height: 30px;
-        right: 8%;
-        top: 12%;
-    }
-
-    .boxHeadTxt3 {
-        text-align: center;
-        position: absolute;
-        background-color: #3f1da4;
-        border-radius: 25px;
-        width: 160px;
-        height: 30px;
-        right: 8%;
-        top: 12%;
-    }
-
-
     .insight1 {
         height: 400px;
         margin-top: 5%;
@@ -2023,28 +2059,6 @@ box01-blue {
         text-align: center;
         position: absolute;
         background-color: #ff4336;
-        border-radius: 25px;
-        width: 160px;
-        height: 30px;
-        right: 8%;
-        top: 12%;
-    }
-
-    .boxHeadTxt2 {
-        text-align: center;
-        position: absolute;
-        background-color: #67b132;
-        border-radius: 25px;
-        width: 160px;
-        height: 30px;
-        right: 8%;
-        top: 12%;
-    }
-
-    .boxHeadTxt3 {
-        text-align: center;
-        position: absolute;
-        background-color: #3f1da4;
         border-radius: 25px;
         width: 160px;
         height: 30px;

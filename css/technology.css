@@ -69,7 +69,8 @@
 
         .experience_ul li p {
             margin: 0;
-            
+            font-size: 41px;
+            font-weight: 100;
         }
         .experience_ul li i {
             color: #66B132;
