@@ -1,179 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
-
-* {
-    font-family: 'Open Sans', sans-serif;
+.custImg1 {
+    background-image: url("../images/customerImg1.png");
+    height:500px;
 }
 
-.keyHeadText {
-    width:80%;
-    position: absolute;
-    top: 270px;
+.custImg2 {
+    margin-top:60px;
+    margin-left:60px;
+}
+
+.custImg3 {
+    float: right;
+    margin-right: 60px;
+    margin-top: 320px;
+}
+
+.custInfo1 {
     color: white;
-    display: flex;
-    justify-content: space-between;
+    font-size: 37px;
+    margin: 0px 25%;
 }
-    .keyHeadText .p-left {
-        font-size: 50px;
-        font-weight:600;
 
+.plusImg {
+    margin-left: 48%;
+    margin-top: 50px;
+}
+
+.custSection2{
+    margin:70px auto;
+}
+
+    .custSection2 h2 {
+        color: #3E1DA4;
+        font-weight: 600;
+    }
+    .custSection2 p {
+        margin-top:60px;
+        font-weight: 600;
+        font-size:15px;
+    }
+    .listImg{
+        margin-right:15px;
     }
 
-    .keyHeadText .p-left span{
-        display: flex;
-    }
-
-    .keyHeadText .p-right {
-        font-size: 15px;
-        font-size: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-.keyHeader{
-    color: #E83B3B;
-}
-.keyBoxes .keyBox {
-    background-color: #F2F2F2;
-    height:200px;
-    text-align:center;
-    padding-top:10px;
-}
-
-.keyBox h4 {
-    margin-top: 20px;
-    font-size: 23px;
-    color: #072C50;
-    font-weight: 700;
-}
-
-.keyBox p {
-    margin-top:20px;
+.custList li {
+    padding: 10px 15px;
+    background: lightgray;
     font-size: 15px;
-    color: #666666;
 }
 
-.reports{
-    width:100%;
-    background-size:contain;
-}
-    .reports h3{
-        margin:20px auto;
-        font-size:18px;
-        color:#fff;
-    }
-    .reports .reportBoxes {
-        margin:auto;
-        display:flex;
-        justify-content:space-around;
-    }
-
-        .reports .reportBoxes .reportsBox {
-            display:grid;
-            margin: 10px;
-            padding:0;
-            background-color: white;
-            margin-bottom: 25px;
-        }
-
-        .reports .reportBoxes .reportsBox .finimgFirst {
-            width: 101%;
-            margin: -1px;
-            object-fit: contain;
-            z-index: 1;
-            position: relative;
-        }
-
-        .reports .reportBoxes .reportsBox .finimgSecond {
-            width:100px;
-            margin:10px;
-            z-index: 2;
-            position: absolute;
-        }
-
-.financialImg {
-}
-.financialContent {
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-}
-.reportsBox:nth-child(1) .financialContent {
-    background-color: #EF4436;
-}
-.reportsBox:nth-child(2) .financialContent {
-    background-color: #3E1DA4;
-}
-.reportsBox:nth-child(3) .financialContent {
-    background-color: #66B132;
+.custCard{
+    display:flex;
+    justify-content:center;
 }
 
-    .financialContent p {
-        font-size: 15px;
-        font-weight:550;
-        margin: 5px;
-        color: #fff;
-        text-transform: uppercase;
-    }
-
-    .financialContent span {
-        align-self: center;
-        color:#fff;
-    }
-
-.diagram{
-    width:100%;
+.leftCard {
+    width: 500px;
+    height: 520px;
+    border-top: 5px solid #EF4436;
+    box-shadow: 0px 10px 10px 1px #00000045;
+    margin: 15px;
 }
 
-.revenue {
-    color: EF4436;
-
+.rightCard{
+    margin:15px;
 }
 
-.graphicDiv{
-    text-align:center;
-}
-.numberGraphic {
-    width: 60%;
-}
-
-@media only screen and (max-width: 992px) {
-    .keyBoxes .keyBox{
-        margin-top:10px;
-    }
+.rightCard1 {
+    width: 800px;
+    height: 250px;
+    border-top: 5px solid #66B132;
+    box-shadow: 0px 10px 10px 1px #00000045;
 }
 
-@media only screen and (max-width: 767px) {
-
+.rightCard2 {
+    width: 800px;
+    height: 250px;
+    border-top: 5px solid #3E1DA4;
+    box-shadow: 0px 10px 10px 1px #00000045;
+    margin-top: 20px;
 }
 
-@media only screen and (max-width: 523px) {
-    .keyHeadText {
-        display: flex;
-        flex-wrap: wrap;
-        top: 100px;
-    }
-
-        .keyHeadText .p-left {
-            font-weight: 600;
-            font-size: 25px;
-        }
-
-    .reports .reportBoxes {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .keyHeadText .p-left span {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .keyHeadText .p-right {
-        font-size: 15px;
-    }
-
-    .reports .reportBoxes .reportsBox {
-        margin: 20px;
-    }
-}
