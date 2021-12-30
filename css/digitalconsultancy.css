@@ -11,7 +11,8 @@
 }
 
 .p-consultancy {
-    padding-right: 7%;
+    padding-left: 7%;
+    
 }
 .w-consultancy {
     width:90%;
@@ -70,4 +71,59 @@
 }
 .purplebot p {
     font-size: 24px;
+}
+
+.navborder li a {
+    border-right: 1px solid #505050;
+    padding-right: 20px;
+    color: white !important;
+}
+.navborder li{
+    padding:10px !important;
+}
+.consultancyhead {
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+}
+.consultancyhead h2 {
+
+ font-size:69px;  
+
+}
+.consultancyhead h5 {
+        font-size: 35px;
+    }
+
+.consultancyhead2 {
+    position: absolute;
+    left: 79%;
+    bottom: 34%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.consultancyhead2 h6 {
+    font-size:22px;
+}
+.middleText {
+    position: absolute;
+    left: 15%;
+    bottom: 38%;
+    color: white;
+}
+.middleText h4{
+    font-size:50px;
+}
+.plusSlider2 {
+    position: absolute;
+    left: 47%;
+    bottom: 14%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
