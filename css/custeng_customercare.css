@@ -26,26 +26,33 @@
 }
 
 .custSection2{
-    margin:70px auto;
+    margin:70px 10%;
+    display: flex;
 }
 
-    .custSection2 h2 {
+    .custSection2 h1 {
+        font-size:40px;
         color: #3E1DA4;
         font-weight: 600;
     }
     .custSection2 p {
         margin-top:60px;
         font-weight: 600;
-        font-size:15px;
+        font-size:19px;
     }
     .listImg{
         margin-right:15px;
     }
 
+.custList ul {
+    list-style: none;
+}
+
 .custList li {
-    padding: 10px 15px;
-    background: lightgray;
-    font-size: 15px;
+    margin:5px;
+    padding: 10px 22px;
+    background: #F2F2F2;
+    font-size: 18px;
 }
 
 .custCard{
@@ -80,3 +87,46 @@
     margin-top: 20px;
 }
 
+.flexibleSection3 {
+    background-color: #F2F2F2;
+    padding: 20px 0;
+    margin: 100px 0;
+}
+
+.flexible {
+    margin: 50px 10%;
+    display: flex;
+}
+
+.flexLeft img {
+    width: 100%;
+    padding: 20px;
+}
+
+.flexRight {
+    padding: 20px;
+}
+
+    .flexRight h4 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #EF4436;
+    }
+
+    .flexRight h1 {
+        font-size: 33px;
+        margin-top: 25px;
+    }
+
+    .flexRight p {
+        font-size: 19px;
+        margin-top: 35px;
+    }
+
+.custSection4 {
+    display: flex;
+    margin: 50px 10%;
+}
+    .custSection4 h4 {
+
+    }
