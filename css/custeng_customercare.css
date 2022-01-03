@@ -26,7 +26,7 @@
 }
 
 .custSection2{
-    margin:70px 10%;
+    padding:70px 10%;
     display: flex;
 }
 
@@ -58,6 +58,7 @@
 .custCard{
     display:flex;
     justify-content:center;
+    margin-bottom:50px;
 }
 
 .leftCard {
@@ -143,7 +144,25 @@
     justify-content: space-between;
 }
 
-    .custList2 li img {
-        width: 32px;
-        height: 32px;
-    }
+.custList2 li img {
+    width: 32px;
+    height: 32px;
+}
+
+.custImg4 {
+    background-image: url("../images/custImg4.png");
+    background-position-x: center;
+}
+
+.custSection5{
+    margin: 100px 0;
+    display:flex;
+}
+
+.custInfo4 {
+    color: white;
+    font-size: 33px;
+    float: left;
+    width: 50%;
+    margin: 80px;
+}
