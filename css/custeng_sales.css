@@ -63,3 +63,7 @@
     font-weight: 600;
     font-size: 17px;
 }
+
+.socialMediaImg {
+    background-image: url("../images/techImg1.png");
+}
