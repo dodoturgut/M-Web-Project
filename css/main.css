@@ -519,6 +519,7 @@ hr.new1 {
     .bg .image {
         max-height: 800px;
         width: 100%;
+        margin-top: 100px;
     }
 
     .bg .shadow {

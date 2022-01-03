@@ -1,3 +1,9 @@
+.custText2 {
+    display: flex;
+    font-size: 32px;
+    font-weight: 300;
+}
+
 .custImg1 {
     background-image: url("../images/customerImg1.png");
     height:500px;
