@@ -1,0 +1,29 @@
+
+.salesInfo1 {
+    color: white;
+    font-size: 30px;
+    margin: -30px 22%;
+    font-weight: 300;
+}
+
+.plusImg2 {
+    margin-left: 48%;
+    margin-top: 20px;
+}
+.plusImg2 img {
+    width: 60px;
+}
+
+.custList3 li {
+    background-color: #EF4436 !important;
+}
+
+.custLeft p {
+    font-weight:600;
+    font-size:17px;
+}
+
+.exploreImg{
+    width: 180px;
+    margin-top: 60px;
+}
