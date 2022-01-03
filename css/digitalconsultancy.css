@@ -1,39 +1,45 @@
 .consultancy h2 {
-    font-size:43px !important;
+    font-size: 43px !important;
 }
+
 .consultancy h3 {
     font-size: 29px;
     color: #EF4436
 }
+
 .consultancy p {
-    font-size:24px;
-    color:black
+    font-size: 24px;
+    color: black
 }
 
 .p-consultancy {
     padding-left: 7%;
-    
 }
+
 .w-consultancy {
-    width:90%;
+    width: 90%;
 }
-.mt-consultancy{
-    margin-top:4%;
+
+.mt-consultancy {
+    margin-top: 4%;
 }
+
 .consultancy1 h3 {
     font-size: 29px;
     color: #EF4436;
 }
+
 .purpleimg {
-    width:100%; 
-    padding:0;
-}
-.purpleimg img {
     width: 100%;
-    
+    padding: 0;
 }
+
+    .purpleimg img {
+        width: 100%;
+    }
+
 .purpleall {
-    position:relative;
+    position: relative;
 }
 
 .purpletop {
@@ -43,44 +49,53 @@
     z-index: 999;
     color: white;
 }
-.purpletop h2{
-    font-size:69px;
-}
- .purpletop p {
+
+    .purpletop h2 {
+        font-size: 69px;
+    }
+
+    .purpletop p {
         font-size: 29px;
-        text-align:center; 
+        text-align: center;
+    }
+
+.purplebot {
+    position: absolute;
+    z-index: 999;
+    bottom: 30%;
+    left: 7%;
+    color: white;
 }
- .purplebot{
-     position:absolute;
-     z-index:999;
-     bottom:30%;
-     left:7%;
-     color:white;
- }
+
 .border11 {
     border-right: 1px solid white;
 }
-.one {
-    display:inline-block;
-    padding:30px;
 
+.one {
+    display: inline-block;
+    padding: 30px;
 }
-.purplebot h3{
-    font-size:127px;
-    text-align:center;s
+
+.purplebot h3 {
+    font-size: 127px;
+    text-align: center;
+    s
 }
+
 .purplebot p {
     font-size: 24px;
 }
 
 .navborder li a {
-    border-right: 1px solid #505050;
+    border-right: 1px solid white !important;
     padding-right: 20px;
     color: white !important;
 }
-.navborder li{
-    padding:10px !important;
+
+.navborder li {
+    padding: 10px !important;
 }
+
 .consultancyhead {
     position: absolute;
     left: 20%;
@@ -89,15 +104,16 @@
     color: white;
     text-align: center;
 }
+
 }
+
 .consultancyhead h2 {
-
- font-size:69px;  
-
+    font-size: 69px;
 }
+
 .consultancyhead h5 {
-        font-size: 35px;
-    }
+    font-size: 35px;
+}
 
 .consultancyhead2 {
     position: absolute;
@@ -106,19 +122,24 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    width: 40%;
 }
-.consultancyhead2 h6 {
-    font-size:22px;
-}
+
+    .consultancyhead2 h6 {
+        font-size: 22px;
+    }
+
 .middleText {
     position: absolute;
     left: 15%;
     bottom: 38%;
     color: white;
 }
-.middleText h4{
-    font-size:50px;
-}
+
+    .middleText h4 {
+        font-size: 50px;
+    }
+
 .plusSlider2 {
     position: absolute;
     left: 47%;

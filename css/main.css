@@ -1120,6 +1120,14 @@ hr.new1 {
     padding-bottom: 100px;
 }
 
+.paddingTop50 {
+    padding-top: 50px;
+}
+
+.paddingBottom50 {
+    padding-bottom: 50px;
+}
+
 .paddingBottom200 {
     padding-bottom: 100px;
 }
