@@ -1129,7 +1129,15 @@ hr.new1 {
 }
 
 .paddingBottom200 {
-    padding-bottom: 100px;
+    padding-bottom: 200px;
+}
+
+.paddingBottom20 {
+    padding-bottom: 20px;
+}
+
+.paddingTop20 {
+    padding-top: 20px;
 }
 
 .contactLeft {
