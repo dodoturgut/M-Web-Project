@@ -1,0 +1,33 @@
+.middleText {
+    position: absolute;
+    left: 15%;
+    bottom: 30% !important;
+    color: white;
+}
+.middleText h4 {
+    font-weight: 300;
+    width: 78%;
+}
+.middleText p {
+    font-size: 42px;
+    font-weight: 300;
+    width: 74%;
+    line-height: 1.2;
+}
+
+.plusSlider2 {
+    position: absolute;
+    left: 47%;
+    bottom: 10% !important;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.consultancyText p {
+   
+}
+.middleText2 {
+    bottom: 23% !important;
+   
+}
+.
