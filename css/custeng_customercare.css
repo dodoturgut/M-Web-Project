@@ -1,3 +1,9 @@
+.custText2 {
+    display: flex;
+    font-size: 32px;
+    font-weight: 300;
+}
+
 .custImg1 {
     background-image: url("../images/customerImg1.png");
     height:500px;
@@ -26,7 +32,7 @@
 }
 
 .custSection2{
-    margin:70px 10%;
+    padding:70px 10%;
     display: flex;
 }
 
@@ -58,6 +64,7 @@
 .custCard{
     display:flex;
     justify-content:center;
+    margin-bottom:50px;
 }
 
 .leftCard {
@@ -125,8 +132,43 @@
 
 .custSection4 {
     display: flex;
-    margin: 50px 10%;
+    margin: 100px 10%;
 }
     .custSection4 h4 {
-
+        color: #EF4436;
+        font-weight: 600;
+        font-size:20px;
     }
+
+.custList2 li {
+    padding: 20px;
+    background-color: #3E1DA4;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custList2 li img {
+    width: 32px;
+    height: 32px;
+}
+
+.custImg4 {
+    background-image: url("../images/custImg4.png");
+    background-position-x: center;
+}
+
+.custSection5{
+    margin: 100px 0;
+    display:flex;
+}
+
+.custInfo4 {
+    color: white;
+    font-size: 33px;
+    float: left;
+    width: 50%;
+    margin: 80px;
+}
