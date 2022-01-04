@@ -67,3 +67,24 @@
 .socialMediaImg {
     background-image: url("../images/techImg1.png");
 }
+
+.enterpriseRight p{
+    font-size:20px;
+}
+
+.enterpriseRight ul {
+    margin-top:30px;
+}
+
+.enterpriseRight li {
+    font-size: 17px;
+}
+
+.contactImg {
+    width: 220px;
+    margin-top: 40px;
+}
+
+.flexibleSection4 {
+    background-color: white;
+}
