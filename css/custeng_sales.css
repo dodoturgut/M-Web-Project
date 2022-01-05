@@ -5,6 +5,12 @@
     margin: -30px 22%;
     font-weight: 300;
 }
+.techInfo1 {
+    color: white;
+    font-size: 30px;
+    margin: 0px 19%;
+    font-weight: 300;
+}
 
 .plusImg2 {
     margin-left: 48%;
@@ -12,10 +18,15 @@
 }
 .plusImg2 img {
     width: 60px;
+    margin:20px;
 }
 
 .custList3 li {
     background-color: #EF4436 !important;
+}
+
+.custList4 li {
+    background-color: #66B132 !important;
 }
 
 .custLeft p {
@@ -26,4 +37,54 @@
 .exploreImg{
     width: 180px;
     margin-top: 60px;
+}
+.custImg5{
+    background-image: url("../images/techImg2.png");
+}
+
+.techList1{
+    margin-top: 20px;
+}
+
+.techList1 span {
+    color: #3E1DA4;
+}
+.backOfficeImg1 {
+    background-image: url("../images/backOfficeImg2.png");
+}
+
+.collection1{
+    margin: 0 !important;
+    padding: 100px 10%;
+}
+
+.socialLeft p{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.socialMediaImg {
+    background-image: url("../images/techImg1.png");
+}
+
+.enterpriseRight p{
+    font-size:20px;
+}
+
+.enterpriseRight ul {
+    margin-top:30px;
+}
+
+.enterpriseRight li {
+    font-size: 17px;
+}
+
+.contactImg {
+    width: 220px;
+    margin-top: 40px;
+}
+
+.flexibleSection4 {
+    background-color: white;
 }
