@@ -50,15 +50,35 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-a {
-    color: #000000 !important;
+.menuAlt a {
+    color: white !important;
     text-decoration: none;
 }
 
-    a:hover {
-        color: #747070 !important;
+    .menuAlt a:hover {
+        color: #dfd6d6 !important;
         text-decoration: none;
     }
+
+.menuAlt .active  {
+    color: #dfd6d6 !important;
+    text-decoration: none;
+}
+
+.solTaraf a {
+    color: #000000;
+    text-decoration: none;
+}
+
+    .solTaraf a:hover {
+        color: #606060;
+        text-decoration: none;
+    }
+
+.solTaraf .active a {
+    color: #606060;
+    text-decoration: none;
+}
 
 .w-25 {
     width: 25%;
