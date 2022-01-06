@@ -60,7 +60,7 @@
         text-decoration: none;
     }
 
-.menuAlt .active  {
+.menuAlt .active {
     color: #dfd6d6 !important;
     text-decoration: none;
 }
@@ -532,6 +532,10 @@ hr.new1 {
         color: black;
     }
 
+.indexMenu a {
+    color: white;
+}
+
 .bg {
     width: 100%;
 }
@@ -539,7 +543,6 @@ hr.new1 {
     .bg .image {
         max-height: 800px;
         width: 100%;
-        margin-top: 100px;
     }
 
     .bg .shadow {
