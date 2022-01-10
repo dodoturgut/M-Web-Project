@@ -1,0 +1,321 @@
+.headText h5 {
+    font-size: 45px;
+}
+
+.headText h4 {
+    font-size: 45px;
+}
+
+.headText h2 {
+    font-size: 87px;
+}
+
+.box {
+    height: 450px;
+}
+
+.boxHead img {
+    width: 100%;
+    height: 465px;
+}
+
+
+.boxHead .imageText {
+    position: absolute;
+    font-size: 16px;
+    left: 8%;
+    bottom: 0;
+}
+
+.imageText p {
+    font-size: 25px;
+}
+
+.imageTextmobile {
+    position: absolute;
+    top: 50%;
+    font-size: 16px;
+    left: 7%;
+}
+
+.imageText p {
+    background-color: white;
+    width: fit-content;
+}
+
+.boxFoot {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+    .boxFoot p {
+        font-size: 19px;
+    }
+
+    .boxFoot button {
+        border-radius: 25px;
+        border-style: solid;
+        height: 45px;
+        width: 170px;
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+.boxHeadTxtmobile {
+    text-align: center;
+    position: absolute;
+    background-color: #ff4336;
+    border-radius: 25px;
+    width: 160px;
+    height: 30px;
+    top: 2%;
+    right: 8%;
+}
+
+.boxHeadTxt {
+    text-align: center;
+    position: absolute;
+    background-color: #ff4336;
+    border-radius: 25px;
+    width: 244px;
+    height: 46px;
+    top: 2%;
+    right: 8%;
+}
+
+    .boxHeadTxt p {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+.boxHeadTxt2 {
+    text-align: center;
+    position: absolute;
+    background-color: #ff4336;
+    border-radius: 25px;
+    width: 244px;
+    height: 46px;
+    top: 2%;
+    right: 8%;
+}
+
+    .boxHeadTxt2 p {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+.boxHeadTxt3 {
+    text-align: center;
+    position: absolute;
+    background-color: #ff4336;
+    border-radius: 25px;
+    width: 244px;
+    height: 46px;
+    top: 2%;
+    right: 8%;
+}
+
+
+    .boxHeadTxt3 p {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+.insight2 {
+    right: 0%
+}
+
+.insight2 {
+    right: 0%
+}
+
+.insight2 {
+    right: 0%
+}
+
+.insight1 .insightHead {
+    z-index: 999;
+    bottom: 15%;
+    position: absolute;
+}
+
+    .insight1 .insightHead h2 {
+        font-size: 45px;
+    }
+
+    .insight1 .insightHead h4 {
+        font-size: 24px;
+    }
+
+.insight1 .insightContent {
+    padding-right: 20px;
+    z-index: 999;
+    position: absolute;
+    bottom: 2%;
+}
+
+    .insight1 .insightContent p {
+        font-size: 19px;
+        font-weight: 300;
+    }
+
+@media only screen and (max-width: 1128px) {
+    .headText h5 {
+        font-size: 30px;
+    }
+
+    .headText h4 {
+        font-size: 30px;
+    }
+
+    .headText h2 {
+        font-size: 60px;
+    }
+
+    .insight1 .insightHead {
+        margin-top: 190px;
+        z-index: 999;
+        position: absolute;
+    }
+
+    .insight1 .insightHead {
+        z-index: 999;
+        bottom: 25%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 778px) {
+    .headText h5 {
+        font-size: 20px;
+    }
+
+    .headText h4 {
+        font-size: 20px;
+    }
+
+    .headText h2 {
+        font-size: 40px;
+    }
+
+    .box {
+        height: 450px;
+        margin-bottom: 250px;
+    }
+
+    .insight1 {
+        height: 400px;
+        margin-top: 5%;
+        position: relative;
+        z-index: 999;
+    }
+
+    .insight2 {
+        right: 0%
+    }
+
+    .insight1 .insightHead h2 {
+        font-size: 30px;
+    }
+
+    .insight1 .insightHead h4 {
+        font-size: 18px;
+    }
+
+    .insight1 .insightContent p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .insight1 .insightHead {
+        z-index: 999;
+        bottom: 20%;
+        position: absolute;
+    }
+
+    .insight1 .insightContent {
+        padding-right: 30px;
+        z-index: 999;
+        position: absolute;
+        bottom: 2%;
+    }
+
+    .gridBox .header {
+        color: white;
+        padding: 30px;
+        padding-top: 200px;
+    }
+
+    .multipleContainer {
+        padding-bottom: 300px;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    .headText h5 {
+        font-size: 10px;
+    }
+
+    .headText h4 {
+        font-size: 10px;
+    }
+
+    .headText h2 {
+        font-size: 20px;
+    }
+
+    .boxHead .imageText {
+        position: absolute;
+        font-size: 16px;
+        left: 5%;
+        bottom: 0;
+        top: 40%;
+    }
+
+    .gridBox .header {
+        color: white;
+        padding: 30px;
+        padding-top: 5px;
+    }
+
+    .imgGrid {
+        height: 300px;
+    }
+
+    .gridDiv {
+        height: 300px;
+    }
+
+    .exploresText2 {
+        font-size: 27px;
+        line-height: 30px;
+        font-weight: 100;
+    }
+
+    .contactText p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .contactHead h2 {
+        font-size: 30px;
+    }
+
+    .contactRight img {
+        height: 250px;
+        width: 100%;
+    }
+}
