@@ -18,7 +18,7 @@
 .plusSlider2 {
     position: absolute;
     left: 47%;
-    bottom: 0% !important;
+    bottom: 10% !important;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
