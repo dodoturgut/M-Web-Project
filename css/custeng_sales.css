@@ -88,3 +88,41 @@
 .flexibleSection4 {
     background-color: white;
 }
+
+@media only screen and (max-width: 523px) {
+    .custLeft p {
+        font-size: 24px;
+        text-align:justify;
+    }
+
+    .custList2{
+        padding: 0;
+        margin: 50px 0;
+    }
+
+    .custList2 li {
+        padding: 10px;
+        margin: 15px;
+        font-size: 25px;
+    }
+
+    .custSection4 h4 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .custImg5 {
+        background-repeat: no-repeat;
+    }
+    .techInfo1 {
+        font-size: 30px;
+        margin: 0px 20px;
+        padding: 20px 0;
+        text-align: justify;
+    }
+    .plusImg2 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    }

@@ -61,38 +61,84 @@
     font-size: 18px;
 }
 
-.custCard{
-    display:flex;
-    justify-content:center;
-    margin-bottom:50px;
+.custCard {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto;
 }
 
 .leftCard {
-    width: 500px;
-    height: 520px;
+    width: 35%;
     border-top: 5px solid #EF4436;
     box-shadow: 0px 10px 10px 1px #00000045;
     margin: 15px;
 }
+
+    .leftCard > div {
+        margin: 25px;
+    }
 
 .rightCard{
     margin:15px;
 }
 
 .rightCard1 {
-    width: 800px;
-    height: 250px;
+    display: flex;
+    padding: 25px;
+    width: 100%;
     border-top: 5px solid #66B132;
     box-shadow: 0px 10px 10px 1px #00000045;
 }
 
+    .rightCard1 .rightCard1Img {
+        text-align: center;
+        width: 25%;
+        display: contents;
+    }
+
+    .rightCard1 .rightCard1Img {
+        text-align: center;
+        width: 25%;
+        display: contents;
+    }
+
 .rightCard2 {
-    width: 800px;
-    height: 250px;
+    display: flex;
+    padding: 25px;
+    width: 100%;
     border-top: 5px solid #3E1DA4;
     box-shadow: 0px 10px 10px 1px #00000045;
     margin-top: 20px;
 }
+    .rightCard2 .rightCard2Img {
+        text-align: center;
+        width: 25%;
+        display: contents;
+    }
+
+.cardDiv {
+    margin-left: 20px;
+}
+.cardFlex {
+    display: grid;
+    align-content: space-evenly;
+}
+
+    .cardFlex h3 {
+        font-weight: 600;
+    }
+
+    .cardFlex p {
+        font-size: 21px;
+    }
+
+    .cardFlex h5 {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        color: gray;
+    }
 
 .flexibleSection3 {
     background-color: #F2F2F2;
@@ -171,4 +217,97 @@
     float: left;
     width: 50%;
     margin: 80px;
+}
+
+.rightCard2Img > img {
+    height: 80%;
+}
+
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 523px) {
+    .custSection4 {
+        display: block;
+        margin: 10px;
+    }
+
+    .custCard {
+        width: 90%;
+        display: block;
+        margin: 30px auto;
+    }
+    .cardDiv{
+        margin: 0;
+    }
+    .leftCard {
+        width: 100%;
+        margin: 20px 0;
+        padding: 25px;
+    }
+
+    .leftCard > div{
+        margin: 0px;
+    }
+
+    .rightCard {
+        width: 100%;
+        margin: 0;
+    }
+
+    .rightCard1 {
+        display: block;
+    }
+
+        .rightCard1 .rightCard1Img {
+            text-align: center;
+        }
+
+    .rightCard2 {
+        display: block;
+    }
+
+        .rightCard2 .rightCard2Img {
+            text-align: center;
+        }
+
+
+    .flexible {
+        margin: 10px;
+        display: block;
+    }
+
+    .flexRight h4 {
+        font-size: 30px;
+    }
+
+    .flexRight h1 {
+        font-size: 30px;
+        margin-top: 25px;
+        text-align: justify;
+    }
+
+    .flexRight p {
+        font-size: 26px;
+        margin-top: 25px;
+        text-align: justify;
+    }
+
+    .custImg2, .custImg3 {
+        display: none;
+    }
+
+    .rightCard1Img > img{
+        width: 100%;
+    }
+
+    .rightCard2Img > img {
+        width: 100%;
+    }
+     
 }
