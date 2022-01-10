@@ -1,0 +1,97 @@
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 40%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .services .servicesHeader h2 {
+        font-size: 35px
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 40%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .services .servicesHeader h2 {
+        font-size: 25px
+    }
+
+    .experience_ul li p {
+        margin: 0;
+        font-size: 21px;
+        font-weight: 100;
+    }
+
+    .stepLeft {
+        display: inline-grid;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        justify-items: flex-end;
+        text-align: end;
+    }
+
+    .stepRight {
+        display: inline-grid;
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        justify-items: flex-start;
+        text-align: start;
+    }
+
+    .doubleText h2 {
+        font-size: 22px;
+    }
+
+    .exploresText {
+        font-size: 31px;
+        line-height: 36px;
+        font-weight: 300;
+    }
+
+    .humanCentric {
+        margin-top: 200px;
+    }
+
+    .exploresText2 {
+        font-size: 27px;
+        line-height: 28px;
+        font-weight: 100;
+    }
+}

@@ -715,6 +715,7 @@ hr.new1 {
         opacity: 1;
         transition: transform .4s;
     }
+
 .cxSol h2 {
     font-size: 45px;
 }
@@ -1275,7 +1276,7 @@ box01-blue {
 }
 
 .main {
-    width: 72%;
+    width: 70%;
     height: 100%;
     border: 1px solid #CCC;
     position: absolute;
@@ -1650,7 +1651,7 @@ box01-blue {
         background-color: #E6413C;
         padding: 10%;
         width: 100%;
-        height: 1000px;
+        height: 1050px;
     }
 
         .footer .copyright {
@@ -1826,28 +1827,28 @@ box01-blue {
         left: 7%;
     }
 
-   
 
-        .insight1 .image {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
 
-        .insight1 .shadow {
-            width: 90%;
-            height: 400px;
-            position: absolute;
-        }
+    .insight1 .image {
+        width: 90%;
+        height: 400px;
+        position: absolute;
+    }
 
-        .insight1 .insightHeader {
-            position: absolute;
-            margin-left: 3%;
-            left: unset;
-            margin-top: 2%;
-            top: unset;
-            color: white;
-        }
+    .insight1 .shadow {
+        width: 90%;
+        height: 400px;
+        position: absolute;
+    }
+
+    .insight1 .insightHeader {
+        position: absolute;
+        margin-left: 3%;
+        left: unset;
+        margin-top: 2%;
+        top: unset;
+        color: white;
+    }
 
     .contentHead {
         display: none;
@@ -1959,7 +1960,7 @@ box01-blue {
         left: 7%;
     }
 
-  
+
     .mobileServices {
         display: block;
     }
