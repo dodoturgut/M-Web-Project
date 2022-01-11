@@ -34,6 +34,10 @@
     font-size:17px;
 }
 
+.custLeft h2 {
+    font-size: 32px;
+}
+
 .exploreImg{
     width: 180px;
     margin-top: 60px;
@@ -94,6 +98,11 @@
         text-align: center;
     }
 
+    .custLeft h2 {
+        font-size: 23px;
+        text-align: justify;
+    }
+
     .custLeft p {
         font-size: 20px;
         text-align: justify;
@@ -118,12 +127,23 @@
     .custImg5 {
         background-repeat: no-repeat;
     }
+
+    .backOfficeImg1 {
+        background-repeat: no-repeat;
+    }
     .techInfo1 {
         font-size: 22px;
         margin: 0px 20px;
         padding: 20px 0;
         text-align: justify;
     }
+    .salesInfo1 {
+        font-size: 22px;
+        margin: 0px 20px;
+        padding: 20px 0;
+        text-align: justify;
+    }
+
     .plusImg2 {
         margin: 0;
         display: flex;

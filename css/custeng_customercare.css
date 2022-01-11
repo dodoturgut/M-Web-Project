@@ -235,7 +235,9 @@
     .custText2 {
         font-size: 24px;
     }
-
+    .flexRight div{
+        text-align: center;
+    }
 
     .custSection4 {
         display: block;
