@@ -94,7 +94,27 @@
 }
 
 @media only screen and (max-width: 523px) {
-    .enterpriseRight div{
+    .socialLeft h1 {
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .socialLeft p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .socialLeft div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .exploreImg {
+        margin-top: 20px;
+    }
+
+    .enterpriseRight div {
         text-align: center;
     }
 
@@ -116,7 +136,7 @@
     .custList2 li {
         padding: 10px;
         margin: 15px;
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .custSection4 h4 {
