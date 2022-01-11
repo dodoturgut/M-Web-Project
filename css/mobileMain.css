@@ -134,12 +134,15 @@
     right: 0%
 }
 
-.insight2 {
-    right: 0%
+.insight3 {
+    margin-top: 1%;
+    height: 377px;
 }
 
-.insight2 {
-    right: 0%
+.insight4 {
+    right: 0%;
+    margin-top: 1%;
+    height: 377px;
 }
 
 .insight1 .insightHead {
@@ -168,7 +171,28 @@
         font-weight: 300;
     }
 
+.insightHeaderLeft {
+    left: 8%;
+}
+
 @media only screen and (max-width: 1128px) {
+    .contentHead {
+        display: none;
+    }
+
+    .fourPlaced2 .box0 p {
+        text-align: left;
+        padding: 50px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        width: 50%;
+    }
+
+    .fourPlaced2 .box01 h1 {
+        font-size: 20px;
+    }
+
     .headText h5 {
         font-size: 30px;
     }
@@ -192,9 +216,120 @@
         bottom: 25%;
         position: absolute;
     }
+
+    .grid-cell-5 {
+        padding: 20px;
+    }
+
+        .grid-cell-5 h1 {
+            font-size: 22px;
+        }
+
+        .grid-cell-5 h3 {
+            font-size: 16px;
+        }
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 60%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+        .plusSlider img {
+            width: 65%;
+        }
 }
 
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 992px) {
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 55%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 65%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider img {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 769px) {
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 60%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+        .plusSlider img {
+            width: 35%;
+        }
+
+    .borderRightText h2 {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .borderRightText li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        list-style: none;
+        font-weight: 100;
+        margin-left: -40px;
+    }
+
+    .insightHeaderLeft {
+        left: 0%;
+    }
+
+    .insight2 {
+        right: 1% !important;
+    }
+
+    .insight4 {
+        right: 1% !important;
+    }
+
+    .insightContainer {
+        height: 1850px;
+    }
 
     .imageText p {
         font-size: 13px;
@@ -245,7 +380,7 @@
     .insight1 .insightHead {
         left: 10%;
         z-index: 999;
-        bottom: 25%;
+        bottom: 20%;
         position: absolute;
     }
 
@@ -254,7 +389,7 @@
         padding-right: 30px;
         z-index: 999;
         position: absolute;
-        bottom: 2%;
+        bottom: 5%;
     }
 
     .gridBox .header {
@@ -266,9 +401,35 @@
     .multipleContainer {
         padding-bottom: 300px;
     }
+
+    .services .servicesHeader h2 {
+        font-size: 35px
+    }
 }
 
-@media only screen and (max-width: 572px) {
+@media only screen and (max-width: 523px) {
+
+    .gridContainer {
+        display: block;
+        grid-template-columns: [col1] 50% [col1] 25% [col3] 25%;
+        grid-gap: 10px;
+        grid-template-rows: [row1] 47% [row2] 47%;
+        text-align: center;
+        color: #FFF;
+    }
+
+    .grid-cell-5 {
+        padding: 20px;
+    }
+
+        .grid-cell-5 h1 {
+            font-size: 18px;
+        }
+
+        .grid-cell-5 h3 {
+            font-size: 12px;
+        }
+
     .headText h5 {
         font-size: 10px;
     }
@@ -320,5 +481,73 @@
     .contactRight img {
         height: 250px;
         width: 100%;
+    }
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 40%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .services .servicesHeader h2 {
+        font-size: 25px
+    }
+
+    .experience_ul li p {
+        margin: 0;
+        font-size: 21px;
+        font-weight: 100;
+    }
+
+    .stepLeft {
+        display: inline-grid;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        justify-items: flex-end;
+        text-align: end;
+    }
+
+    .stepRight {
+        display: inline-grid;
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        justify-items: flex-start;
+        text-align: start;
+    }
+
+    .doubleText h2 {
+        font-size: 22px;
+    }
+
+    .exploresText {
+        font-size: 31px;
+        line-height: 36px;
+        font-weight: 300;
+    }
+
+    .humanCentric {
+        margin-top: 200px;
+    }
+
+    .exploresText2 {
+        font-size: 27px;
+        line-height: 28px;
+        font-weight: 100;
     }
 }

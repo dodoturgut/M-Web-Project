@@ -2,7 +2,7 @@
 
 /*CONTAİNERS*/
 .doubleText {
-    width: 80%
+    width: 90%
 }
 
     .doubleText h2 {
@@ -1538,23 +1538,6 @@ box01-blue {
 }
 
 @media only screen and (max-width: 992px) {
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 65%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
 
         .headText2 h4 {
             font-size: 24px;
@@ -1776,7 +1759,7 @@ box01-blue {
     }
 
     .bgsag {
-        height: 300px;
+        height: 200px;
     }
 
     .animation .head {
@@ -1848,10 +1831,6 @@ box01-blue {
         margin-top: 2%;
         top: unset;
         color: white;
-    }
-
-    .contentHead {
-        display: none;
     }
 
     .contentHead2 {
