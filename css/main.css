@@ -1854,6 +1854,11 @@ box01-blue {
         height: 300px;
     }
 
+    .doubleText h2{
+        font-size: 22px;
+        margin: 20px 0;
+        text-align: justify;
+    }
 
     .plusSlider {
         position: absolute;
