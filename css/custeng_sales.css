@@ -137,6 +137,12 @@
         padding: 10px;
         margin: 15px;
         font-size: 23px;
+        align-items: center;
+    }
+
+    .custList2 li img {
+        width: 20px;
+        height: 20px;
     }
 
     .custSection4 h4 {
