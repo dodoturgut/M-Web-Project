@@ -52,6 +52,7 @@
 
 .custList ul {
     list-style: none;
+    padding: 0;
 }
 
 .custList li {
@@ -232,9 +233,76 @@
 }
 
 @media only screen and (max-width: 523px) {
-    .custText2 {
-        font-size: 24px;
+    .custSection2 {
+        display:block;
     }
+
+        .custSection2 > div p {
+            text-align: justify;
+        }
+
+        .custText2 {
+            font-size: 24px;
+        }
+
+
+    .custList li {
+        display: grid;
+        justify-content: center;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .custList2 {
+        padding: 0;
+        margin: 50px 0;
+    }
+
+        .custList2 li {
+            padding: 10px;
+            margin: 15px;
+            font-size: 23px;
+            align-items: center;
+        }
+
+            .custList2 li img {
+                width: 20px;
+                height: 20px;
+            }
+
+    .custInfo1 {
+        font-size: 25px;
+        margin: 0px 20px;
+        padding: 50px 0;
+        text-align: justify;
+    }
+    .custInfo4 {
+        width: 90%;
+        font-size: 22px;
+        margin: 0px 20px;
+        padding: 20px 0;
+        text-align: justify;
+    }
+
+    .plusImg {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .custImg1 {
+        height: 370px;
+    }
+
+    .plusImg img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .listImg {
+        margin: auto;
+    }
+
     .flexRight div{
         text-align: center;
     }
