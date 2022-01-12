@@ -39,12 +39,16 @@
     color: #E83B3B;
 }
 
-.keyBoxes .keyBox {
-    background-color: #F2F2F2;
-    height: 200px;
-    text-align: center;
-    padding-top: 10px;
+.keyBoxes {
+    display: contents;
 }
+
+    .keyBoxes .keyBox {
+        background-color: #F2F2F2;
+        height: 200px;
+        text-align: center;
+        padding-top: 10px;
+    }
 
 .keyBox h4 {
     margin-top: 20px;
@@ -65,7 +69,7 @@
 }
 
     .reports h3 {
-        width:90%;
+        width: 90%;
         margin: 20px auto;
         font-size: 29px;
         color: #fff;
@@ -148,6 +152,7 @@
 }
 
 .numberGraphic {
+    width: 100%;
 }
 
 @media only screen and (max-width: 992px) {
@@ -165,6 +170,7 @@
         flex-wrap: wrap;
         top: 100px;
     }
+
         .keyHeadText .p-left {
             font-weight: 600;
             font-size: 20px;
