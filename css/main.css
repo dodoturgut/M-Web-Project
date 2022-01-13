@@ -628,18 +628,36 @@ hr.new1 {
     }
 
 
+
+.insightsRight {
+    height: 836px;
+    width: 66%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    margin-top: -70px;
+}
+
+    .insightsRight .head {
+        position: absolute;
+        left: 0;
+        color: #3e1da4;
+        top: 0;
+        font-weight: 700;
+    }
+
 .insightsLeft {
     height: 836px;
     width: 33%;
-    background-color: #EF4436;
     position: absolute;
     left: 0;
     z-index: -1;
+    margin-top: -70px;
 }
 
     .insightsLeft .head {
         position: absolute;
-        right: 40%;
+        right: 0;
         color: white;
         top: 0;
         font-weight: 700;
@@ -668,8 +686,6 @@ hr.new1 {
 
 
 .insightDis {
-    margin-top: 20px;
-    padding: 0;
 }
 
     .insightDis h2 {
@@ -1696,6 +1712,9 @@ box01-blue {
 }
 
 @media only screen and (max-width: 767px) {
+    .heigth1000px {
+        height: 700px;
+    }
 
     .humanCentric {
         padding-top: 250px;

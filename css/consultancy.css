@@ -5,14 +5,14 @@
 
 
 
-    .box0 p {
-        font-weight: 300 !important;
-        padding: 0px !important;
-        position: absolute !important;
-        top: 30% !important;
-        bottom: 0 !important;
-        left: 10% !important;
-    }
+.box0 p {
+    font-weight: 300 !important;
+    padding: 0px !important;
+    position: absolute !important;
+    top: 30% !important;
+    bottom: 0 !important;
+    left: 10% !important;
+}
 
 
 .animation .content .head {
@@ -71,7 +71,65 @@
     }
 }
 
+@media only screen and (max-width: 1829px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 35%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1321px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 40%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 992px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 55%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 45%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
     .fourPlaced2 {
         display: none;
     }
@@ -139,6 +197,24 @@
         top: 70%;
         position: absolute;
         left: -13%;
+    }
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 65%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 65%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
     }
 }
 

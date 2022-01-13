@@ -186,8 +186,12 @@
 }
 
 @media only screen and (max-width: 1128px) {
-    .contentHead {
-        display: none;
+    .insightsLeft .head {
+        font-size: 18px;
+    }
+
+    .insightsRight .head {
+        font-size: 16px;
     }
 
     .fourPlaced2 .box0 p {
@@ -563,7 +567,6 @@
     }
 
     .humanCentric {
-        margin-top: 200px;
     }
 
     .exploresText2 {

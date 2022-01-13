@@ -1,0 +1,21 @@
+
+@media only screen and (max-width: 769px) {
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 70%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 60%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+}

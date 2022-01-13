@@ -5,14 +5,14 @@
 
 
 
-    .box0 p {
-        font-weight: 300 !important;
-        padding: 0px !important;
-        position: absolute !important;
-        top: 30% !important;
-        bottom: 0 !important;
-        left: 10% !important;
-    }
+.box0 p {
+    font-weight: 300 !important;
+    padding: 0px !important;
+    position: absolute !important;
+    top: 30% !important;
+    bottom: 0 !important;
+    left: 10% !important;
+}
 
 
 .animation .content .head {
@@ -47,12 +47,13 @@
     background-size: cover;
     padding: 10%;
 }
+
 .experienceimg {
     width: 100%;
 }
 
 .experience_ul {
-    list-style:none;
+    list-style: none;
     padding: 20px;
 }
 
@@ -72,12 +73,13 @@
             font-size: 41px;
             font-weight: 100;
         }
+
         .experience_ul li i {
             color: #66B132;
         }
 
-.stepImages{
-    width:50%;
+.stepImages {
+    width: 50%;
 }
 
 .stepLeft {
@@ -94,6 +96,27 @@
     text-align: start;
 }
 
+
+@media only screen and (max-width: 1831px) {
+
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 70%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 60%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 1204px) {
     .animation .content .head {
@@ -159,10 +182,29 @@
         position: absolute;
         left: -13%;
     }
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 80%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 70%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
 }
 
 
 @media only screen and (max-width: 767px) {
+
+
     .animation .content .head {
         top: 05%;
         position: absolute;
