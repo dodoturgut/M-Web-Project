@@ -1360,6 +1360,15 @@ box01-blue {
 }
 
 @media only screen and (max-width: 1204px) {
+    .fourPlaced2 .box0 p {
+        text-align: left;
+        padding: 20px;
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+        width: 50%;
+    }
+
     .test {
         display: none;
     }
@@ -1539,17 +1548,17 @@ box01-blue {
 
 @media only screen and (max-width: 992px) {
 
-        .headText2 h4 {
-            font-size: 24px;
-        }
+    .headText2 h4 {
+        font-size: 24px;
+    }
 
-        .headText2 h2 {
-            font-size: 48px;
-        }
+    .headText2 h2 {
+        font-size: 48px;
+    }
 
-        .headText2 h5 {
-            font-size: 16px;
-        }
+    .headText2 h5 {
+        font-size: 16px;
+    }
 
     .contentBig {
         position: absolute;
@@ -1687,6 +1696,49 @@ box01-blue {
 }
 
 @media only screen and (max-width: 767px) {
+
+    .humanCentric {
+        padding-top: 250px;
+    }
+
+    .grid-cell-1 {
+        height: 400px;
+        background-image: url(../images/consultancyGrid1.png);
+        padding: 25px;
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 10px;
+    }
+
+    .grid-cell-2 {
+        height: 400px;
+        background-image: url(../images/consultancyGrid2.png);
+        padding: 25px;
+        grid-column: 3;
+        grid-row: 1;
+        margin-top: 10px;
+    }
+
+    .grid-cell-3 {
+        height: 285px;
+        background-image: url(../images/consultancyGrid3.png);
+        padding: 25px;
+        grid-column: 2/4;
+        grid-row: 2;
+        margin-top: 10px;
+    }
+
+    .grid-cell-5 {
+        height: 700px;
+        background-color: #3E1DA4;
+        grid-column: 1;
+        grid-row: 1 / 3;
+        padding: 25px;
+        text-align: left;
+        padding: 70px;
+        margin-top: 10px;
+    }
+
     .rightThree {
         display: none;
     }
@@ -1854,7 +1906,7 @@ box01-blue {
         height: 300px;
     }
 
-    .doubleText h2{
+    .doubleText h2 {
         font-size: 22px;
         margin: 20px 0;
         text-align: justify;

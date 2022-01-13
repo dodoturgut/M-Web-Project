@@ -175,6 +175,16 @@
     left: 8%;
 }
 
+@media only screen and (max-width: 1628px) {
+    .grid-cell-5 h1 {
+        font-size: 22px;
+    }
+
+    .grid-cell-5 h3 {
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 1128px) {
     .contentHead {
         display: none;
@@ -404,6 +414,17 @@
 
     .services .servicesHeader h2 {
         font-size: 35px
+    }
+}
+
+@media only screen and (max-width: 603px) {
+
+    .grid-cell-5 h1 {
+        font-size: 18px;
+    }
+
+    .grid-cell-5 h3 {
+        font-size: 10px;
     }
 }
 
