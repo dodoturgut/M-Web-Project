@@ -1,10 +1,10 @@
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 992px) {
 
     .headText2 {
         position: absolute;
         left: 50%;
-        bottom: 70%;
+        bottom: 50%;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
@@ -13,7 +13,7 @@
     .plusSlider {
         position: absolute;
         left: 50%;
-        bottom: 60%;
+        bottom: 40%;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;

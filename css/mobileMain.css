@@ -267,6 +267,67 @@
 }
 
 @media only screen and (max-width: 992px) {
+    .imageText p {
+        font-size: 12px;
+    }
+
+    .boxHeadTxt {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 150px;
+        height: 36px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt p {
+            color: white;
+            font-size: 11px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    .boxHeadTxt2 {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 150px;
+        height: 36px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt2 p {
+            color: white;
+            font-size: 11px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    .boxHeadTxt3 {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 150px;
+        height: 36px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt3 p {
+            color: white;
+            font-size: 11px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
     .plusSlider {
         position: absolute;
         left: 50%;
@@ -292,6 +353,9 @@
 
 
 @media only screen and (max-width: 769px) {
+    .imageText p {
+        font-size: 25px;
+    }
 
     .headText2 {
         position: absolute;
@@ -342,7 +406,7 @@
     }
 
     .insightContainer {
-        height: 1850px;
+        height: 500px;
     }
 
     .imageText p {
@@ -422,6 +486,28 @@
 }
 
 @media only screen and (max-width: 603px) {
+    .boxHeadTxt {
+        text-align: center;
+        position: absolute;
+        border-radius: 25px;
+        width: 244px;
+        height: 46px;
+        top: 2%;
+        right: 8%;
+    }
+
+        .boxHeadTxt p {
+            color: white;
+            font-size: 16px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+    .insightContainer {
+        height: 2000px;
+    }
 
     .grid-cell-5 h1 {
         font-size: 18px;
