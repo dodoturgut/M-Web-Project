@@ -112,9 +112,12 @@
 }
 
 .consultancyhead {
-    
-}
-
+    position: absolute;
+    left: 25%;
+    bottom: -10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
 
 .consultancyhead h2 {
@@ -127,23 +130,29 @@
 }
 
 .consultancyhead2 {
-    
+    position: absolute;
+    left: 74%;
+    bottom: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
 }
 
     .consultancyhead2 h6 {
         font-size: 22px;
     }
 
-/*.middleText {
+.middleText {
     position: absolute;
     left: 15%;
     bottom: 38%;
     color: white;
 }
 
-    .middleText h4 {
-        font-size: 50px;
-    }*/
+.middleText h4 {
+    font-size: 50px;
+}
+   
 
 .plusSlider2 {
     position: absolute;
