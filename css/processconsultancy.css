@@ -1,18 +1,22 @@
 .middleText {
-    position: absolute;
-    left: 15%;
-    bottom: 30% !important;
+    padding: 50px;
     color: white;
+    margin: 50px auto;
 }
-.middleText h4 {
-    font-weight: 300;
-    width: 78%;
-}
+    .middleText h4 {
+        width: 100%;
+        font-size: 40px;
+    }
 .middleText p {
     font-size: 42px;
     font-weight: 300;
     width: 74%;
     line-height: 1.2;
+}
+
+.organizationImg {
+    background-image: url("../images/organization2.png");
+    background-repeat: no-repeat;
 }
 
 .plusSlider2 {
@@ -31,4 +35,12 @@
     bottom: 23% !important;
    
 }
-.
+
+@media only screen and (max-width: 523px) {
+    .middleText h4 {
+        font-weight: 300;
+        width: 90%;
+        font-size: 23px;
+        text-align:justify;
+    }
+}
