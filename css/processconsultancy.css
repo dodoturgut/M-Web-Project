@@ -16,8 +16,8 @@
         line-height: 1.2;
     }
 
-.organizationImg {
-    background-image: url("../images/organization2.png");
+.organizationImg {/*
+    background-image: url("../images/organization2.png");*/
     background-size: cover;
 }
 
