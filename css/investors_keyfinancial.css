@@ -162,6 +162,18 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .keyHeadText {
+        display:block !important;
+        top: 150px !important;
+    }
+        .keyHeadText p-left {
+            font-size: 35px !important;
+            padding-left: 50px !important;
+        }
+
+    .custText2 {
+        font-size: 25px !important;
+    }
 }
 
 @media only screen and (max-width: 523px) {

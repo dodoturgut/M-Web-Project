@@ -10,14 +10,16 @@
 }
 
 .custImg2 {
-    margin-top:60px;
-    margin-left:60px;
+    margin-top:30px;
+    margin-left:30px;
 }
 
 .custImg3 {
     float: right;
-    margin-right: 60px;
-    margin-top: 320px;
+    right: 0;
+    margin-right: 30px;
+    bottom: 30px;
+    position: absolute;
 }
 
 .custInfo1 {
@@ -220,17 +222,47 @@
     margin: 80px;
 }
 
-.rightCard2Img > img {
+/*.rightCard2Img > img {
     height: 80%;
-}
+}*/
 
 
-@media only screen and (max-width: 992px) {
-}
+@media only screen and (max-width: 767px) {
+    .custImg2 {
+        display: none;
+    }
 
-@media only screen and (max-width: 767px){
+    .custImg3 {
+        display: none;
+    }
+    .salesInfo1 {
+        margin:10px !important;
+        padding: 40px;
+    }
 
-}
+    .custSection4{
+        display: block;
+    }
+
+    .custCard{
+        display: block;
+    }
+
+    .leftCard{
+        width: 100%;
+    }
+
+    .rightCard{
+        width: 100%;
+    }
+
+    .custLeft h2{
+        font-size: 23px !important;
+    }
+
+    .custList2{
+        padding: 0;
+    }
 
 @media only screen and (max-width: 523px) {
     .custSection2 {

@@ -542,6 +542,7 @@ hr.new1 {
 
     .bg .image {
         max-height: 800px;
+        height: 500px;
         width: 100%;
     }
 
