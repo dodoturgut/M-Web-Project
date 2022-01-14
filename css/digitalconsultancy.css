@@ -1,6 +1,59 @@
+
+.accordion { /* background-color: #eee; */
+    /* color: #444; */
+    cursor: pointer;
+    /* padding: 18px; */
+    width: 100%;
+    /* border: none; */
+    /* text-align: left; */
+    /* outline: none; */
+    /* font-size: 15px; */
+    transition: 0.4s;
+}
+
+    .custList2 .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+.experience_ul .panel {
+    padding: 20px;
+    display: none;
+    background-color: #481dcfd6 !important;
+    overflow: hidden;
+}
+
+custList2 .panel {
+    padding: 20px;
+    display: none;
+    background-color: #481dcfd6 !important;
+    overflow: hidden;
+}
+
+.custList3 .panel {
+    padding: 20px;
+    display: none;
+    background-color: #f36155 !important;
+    overflow: hidden;
+}
+
+.custList4 .panel {
+    padding: 20px;
+    display: none;
+    background-color: #7ecb49 !important;
+    overflow: hidden;
+}
+
+.custList5 .panel {
+    padding: 20px;
+    display: none;
+    background-color: #7ecb49 !important;
+    overflow: hidden;
+}
+
 .parallax-window {
     background: transparent;
 }
+
 .consultancy h2 {
     font-size: 43px !important;
 }

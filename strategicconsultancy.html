@@ -134,10 +134,30 @@
         </div>
         <div class="col-md-6 col-sm-6 col-12 custRight">
             <ul style="margin-top: 12%;" class="custList2">
-                <li style=" margin-bottom: 3%;">Organizational Transformations<img src="images/plus1.png" /></li>
-                <li style=" margin-bottom: 3%;">Operating Model Design<img src="images/plus1.png" /></li>
-                <li style=" margin-bottom: 3%;">Workforce Efficiency / Productivity<img src="images/plus1.png" /></li>
-                <li style=" margin-bottom: 3%;">Performance Management Analysis<img src="images/plus1.png" </li>
+                <li>
+                    <button class="accordion">Organizational Transformations<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Operating Model Design<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Workforce Efficiency / Productivity<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Performance Management Analysis<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -315,6 +335,23 @@
             $(y).animate({ right: '8%' });
             $(z).animate({ right: '8%' });
         });
+    </script>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none ";
+                } else {
+                    panel.style.display = "block ";
+                }
+            });
+        }
     </script>
 </body>
 </html>
