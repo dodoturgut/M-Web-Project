@@ -164,7 +164,7 @@
 @media only screen and (max-width: 767px) {
     .keyHeadText {
         display:block !important;
-        top: 150px !important;
+        top: 100px !important;
     }
         .keyHeadText p-left {
             font-size: 35px !important;
