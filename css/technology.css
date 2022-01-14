@@ -89,12 +89,20 @@
     text-align: end;
 }
 
+    .stepLeft p{
+        font-size: 20px;
+    }
+
 .stepRight {
     display: inline-grid;
     padding: 100px;
     justify-items: flex-start;
     text-align: start;
 }
+
+    .stepRight p {
+        font-size: 20px;
+    }
 
 
 @media only screen and (max-width: 1831px) {
