@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="css/anims.css">
     <link rel="stylesheet" href="css/mobileMain.css">
     <link rel="stylesheet" href="css/technology.css">
+    <link rel="stylesheet" href="css/digitalconsultancy.css">
+    <link rel="stylesheet" href="css/processconsultancy.css">
+    <link rel="stylesheet" href="css/custeng_customercare.css" />
+    <link rel="stylesheet" href="css/custeng_sales.css" />
 </head>
 <body>
     <div class="bg">
@@ -197,11 +201,25 @@
                 </div>
             </div>
             <div class="col-md-7 col-12">
-                <ul class="experience_ul">
-                    <li><p>Customer Experience</p><i class="fas fa-plus fa-lg"></i></li>
-                    <li><p>Process Automation</p><i class="fas fa-plus fa-lg"></i></li>
-                    <li><p>Agent Experience</p><i class="fas fa-plus fa-lg"></i></li>
-                    <li><p>Quality Assurance and Compliance</p><i class="fas fa-plus fa-lg"></i></li>
+                <ul class="custList2 custList5">
+                    <li>
+                        <button class="accordion">Customer Experience<i class="fas fa-plus fa-lg"></i></button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion">Process Automation<i class="fas fa-plus fa-lg"></i></button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion">Quality Assurance and Compliance<i class="fas fa-plus fa-lg"></i></button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -361,6 +379,22 @@
             $(y).animate({ right: '8%' });
             $(z).animate({ right: '8%' });
         });
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none ";
+                } else {
+                    panel.style.display = "block ";
+                }
+            });
+        }
     </script>
 </body>
 </html>

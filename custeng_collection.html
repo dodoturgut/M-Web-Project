@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/custeng_customercare.css" />
     <link rel="stylesheet" href="css/custeng_sales.css" />
-
+    <link rel="stylesheet" href="css/digitalconsultancy.css">
 </head>
 <body>
     <div class="bg">
@@ -129,8 +129,18 @@
         </div>
         <div class="col-md-6 col-sm-6 col-12 custRight">
             <ul class="custList2 custList3">
-                <li>What we provide<img src="images/plus1.png" /></li>
-                <li>We handle<img src="images/plus1.png" /></li>
+                <li>
+                    <button class="accordion">What we provide<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">We handle<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -284,6 +294,22 @@
             $(y).animate({ right: '8%' });
             $(z).animate({ right: '8%' });
         });
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none ";
+                } else {
+                    panel.style.display = "block ";
+                }
+            });
+        }
     </script>
 </body>
 </html>

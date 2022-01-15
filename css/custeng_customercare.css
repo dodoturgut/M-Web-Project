@@ -6,12 +6,12 @@
 
 .custImg1 {
     background-image: url("../images/customerImg1.png");
-    height:500px;
+    height: 500px;
 }
 
 .custImg2 {
-    margin-top:30px;
-    margin-left:30px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .custImg3 {
@@ -33,24 +33,26 @@
     margin-top: 50px;
 }
 
-.custSection2{
-    padding:70px 10%;
+.custSection2 {
+    padding: 70px 10%;
     display: flex;
 }
 
     .custSection2 h1 {
-        font-size:40px;
+        font-size: 40px;
         color: #3E1DA4;
         font-weight: 600;
     }
+
     .custSection2 p {
-        margin-top:60px;
+        margin-top: 60px;
         font-weight: 600;
-        font-size:19px;
+        font-size: 19px;
     }
-    .listImg{
-        margin-right:15px;
-    }
+
+.listImg {
+    margin-right: 15px;
+}
 
 .custList ul {
     list-style: none;
@@ -58,7 +60,7 @@
 }
 
 .custList li {
-    margin:5px;
+    margin: 5px;
     padding: 10px 22px;
     background: #F2F2F2;
     font-size: 18px;
@@ -82,8 +84,8 @@
         margin: 25px;
     }
 
-.rightCard{
-    margin:15px;
+.rightCard {
+    margin: 15px;
 }
 
 .rightCard1 {
@@ -114,6 +116,7 @@
     box-shadow: 0px 10px 10px 1px #00000045;
     margin-top: 20px;
 }
+
     .rightCard2 .rightCard2Img {
         text-align: center;
         width: 25%;
@@ -123,6 +126,7 @@
 .cardDiv {
     margin-left: 20px;
 }
+
 .cardFlex {
     display: grid;
     align-content: space-evenly;
@@ -146,7 +150,6 @@
 .flexibleSection3 {
     background-color: #F2F2F2;
     padding: 20px 0;
-    margin: 100px 0;
 }
 
 .flexible {
@@ -183,35 +186,53 @@
     display: flex;
     margin: 100px 10%;
 }
+
     .custSection4 h4 {
         color: #EF4436;
         font-weight: 600;
-        font-size:20px;
+        font-size: 20px;
     }
 
 .custList2 li {
+    list-style: none;
     padding: 20px;
     background-color: #3E1DA4;
     color: white;
     margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-size: 25px;
-    display: flex;
+    /* display: block; */
     justify-content: space-between;
 }
 
-.custList2 li img {
-    width: 32px;
-    height: 32px;
-}
+    .custList2 li button {
+        width: 100%;
+        justify-content: space-between;
+        display: contents;
+        cursor: pointer;
+    }
 
-.custImg4 {
-    background-image: url("../images/custImg4.png");
+    .custList2 li img {
+        width: 32px;
+        height: 32px;
+        float: right;
+    }
+
+    .custList2 li i {
+        width: 32px;
+        height: 32px;
+        float: right;
+    }
+
+.custImg4 { /*
+    background-image: url("../images/custImg4.png");*/
     background-position-x: center;
 }
 
-.custSection5{
+.custSection5 {
     margin: 100px 0;
-    display:flex;
+    display: flex;
 }
 
 .custInfo4 {
@@ -235,186 +256,189 @@
     .custImg3 {
         display: none;
     }
+
     .salesInfo1 {
-        margin:10px !important;
+        margin: 10px !important;
         padding: 40px;
     }
 
-    .custSection4{
+    .custSection4 {
         display: block;
     }
 
-    .custCard{
+    .custCard {
         display: block;
     }
 
-    .leftCard{
+    .leftCard {
         width: 100%;
     }
 
-    .rightCard{
+    .rightCard {
         width: 100%;
     }
 
-    .custLeft h2{
+    .custLeft h2 {
         font-size: 23px !important;
     }
 
-    .custList2{
+    .custList2 {
         padding: 0;
     }
 
-@media only screen and (max-width: 523px) {
-    .custSection2 {
-        display:block;
-    }
-
-        .custSection2 > div p {
-            text-align: justify;
+    @media only screen and (max-width: 523px) {
+        .custSection2 {
+            display: block;
         }
+
+            .custSection2 > div p {
+                text-align: justify;
+            }
 
         .custText2 {
             font-size: 24px;
         }
 
 
-    .custList li {
-        display: grid;
-        justify-content: center;
-        font-size: 17px;
-        text-align: center;
-    }
-
-    .custList2 {
-        padding: 0;
-        margin: 50px 0;
-    }
-
-        .custList2 li {
-            padding: 10px;
-            margin: 15px;
-            font-size: 23px;
-            align-items: center;
+        .custList li {
+            display: grid;
+            justify-content: center;
+            font-size: 17px;
+            text-align: center;
         }
 
-            .custList2 li img {
-                width: 20px;
-                height: 20px;
+        .custList2 {
+            padding: 0;
+            margin: 50px 0;
+        }
+
+            .custList2 li {
+                padding: 10px;
+                margin: 15px;
+                font-size: 23px;
+                align-items: center;
             }
 
-    .custInfo1 {
-        font-size: 25px;
-        margin: 0px 20px;
-        padding: 50px 0;
-        text-align: justify;
-    }
-    .custInfo4 {
-        width: 90%;
-        font-size: 22px;
-        margin: 0px 20px;
-        padding: 20px 0;
-        text-align: justify;
-    }
+                .custList2 li img {
+                    width: 20px;
+                    height: 20px;
+                }
 
-    .plusImg {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-    }
+        .custInfo1 {
+            font-size: 25px;
+            margin: 0px 20px;
+            padding: 50px 0;
+            text-align: justify;
+        }
 
-    .custImg1 {
-        height: 370px;
-    }
+        .custInfo4 {
+            width: 90%;
+            font-size: 22px;
+            margin: 0px 20px;
+            padding: 20px 0;
+            text-align: justify;
+        }
 
-    .plusImg img{
-        width: 70px;
-        height: 70px;
-    }
+        .plusImg {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
 
-    .listImg {
-        margin: auto;
-    }
+        .custImg1 {
+            height: 370px;
+        }
 
-    .flexRight div{
-        text-align: center;
-    }
+        .plusImg img {
+            width: 70px;
+            height: 70px;
+        }
 
-    .custSection4 {
-        display: block;
-        margin: 10px;
-    }
+        .listImg {
+            margin: auto;
+        }
 
-    .custCard {
-        width: 90%;
-        display: block;
-        margin: 30px auto;
-    }
-    .cardDiv{
-        margin: 0;
-    }
-    .leftCard {
-        width: 100%;
-        margin: 20px 0;
-        padding: 25px;
-    }
-
-    .leftCard > div{
-        margin: 0px;
-    }
-
-    .rightCard {
-        width: 100%;
-        margin: 0;
-    }
-
-    .rightCard1 {
-        display: block;
-    }
-
-        .rightCard1 .rightCard1Img {
+        .flexRight div {
             text-align: center;
         }
 
-    .rightCard2 {
-        display: block;
-    }
-
-        .rightCard2 .rightCard2Img {
-            text-align: center;
+        .custSection4 {
+            display: block;
+            margin: 10px;
         }
 
+        .custCard {
+            width: 90%;
+            display: block;
+            margin: 30px auto;
+        }
 
-    .flexible {
-        margin: 10px;
-        display: block;
-    }
+        .cardDiv {
+            margin: 0;
+        }
 
-    .flexRight h4 {
-        font-size: 20px;
-    }
+        .leftCard {
+            width: 100%;
+            margin: 20px 0;
+            padding: 25px;
+        }
 
-    .flexRight h1 {
-        font-size: 25px;
-        margin-top: 25px;
-        text-align: justify;
-    }
+            .leftCard > div {
+                margin: 0px;
+            }
 
-    .flexRight p {
-        font-size: 20px;
-        margin-top: 25px;
-        text-align: justify;
-    }
+        .rightCard {
+            width: 100%;
+            margin: 0;
+        }
 
-    .custImg2, .custImg3 {
-        display: none;
-    }
+        .rightCard1 {
+            display: block;
+        }
 
-    .rightCard1Img > img{
-        width: 100%;
-    }
+            .rightCard1 .rightCard1Img {
+                text-align: center;
+            }
 
-    .rightCard2Img > img {
-        width: 100%;
+        .rightCard2 {
+            display: block;
+        }
+
+            .rightCard2 .rightCard2Img {
+                text-align: center;
+            }
+
+
+        .flexible {
+            margin: 10px;
+            display: block;
+        }
+
+        .flexRight h4 {
+            font-size: 20px;
+        }
+
+        .flexRight h1 {
+            font-size: 25px;
+            margin-top: 25px;
+            text-align: justify;
+        }
+
+        .flexRight p {
+            font-size: 20px;
+            margin-top: 25px;
+            text-align: justify;
+        }
+
+        .custImg2, .custImg3 {
+            display: none;
+        }
+
+        .rightCard1Img > img {
+            width: 100%;
+        }
+
+        .rightCard2Img > img {
+            width: 100%;
+        }
     }
-     
-}

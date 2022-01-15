@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/custeng_customercare.css" />
     <link rel="stylesheet" href="css/custeng_sales.css" />
-
+    <link rel="stylesheet" href="css/digitalconsultancy.css">
+    <link rel="stylesheet" href="css/processconsultancy.css">
+    <link rel="stylesheet" href="css/custeng_customercare.css" />
 </head>
 <body>
     <div class="bg">
@@ -44,7 +46,7 @@
                                 <li><a href="custeng_customercare.html">Customer Care</a></li>
                                 <li><a href="custeng_sales.html">Sales</a></li>
                                 <li><a class="active" href="custeng_socialMedia.html">Social Media </a></li>
-                                <li><a  href="custeng_techSupport.html">Tech Support</a></li>
+                                <li><a href="custeng_techSupport.html">Tech Support</a></li>
                                 <li><a href="custeng_backOffice.html">Backoffice</a></li>
                                 <li><a href="custeng_collection.html">Collection</a></li>
                                 <li><a href="custeng_enterpriseservices.html">Enterprise Solutions</a></li>
@@ -134,8 +136,7 @@
         </div>
     </section>
 
-
-    <section class="custSection4 socialMediaImg collection1" style="color: white !important">
+    <section class="parallax-window custSection4 socialMediaImg collection1" style="color: white !important" data-parallax="scroll" data-image-src="images/techImg1.png">
         <div class="col-md-6 col-sm-6 col-12 custLeft">
             <h2>
                 With our team of Collection specialist with knowledge in various industries from telecommunications to logistics and finance, we provide you with solutions to support your brand.
@@ -143,8 +144,18 @@
         </div>
         <div class="col-md-6 col-sm-6 col-12 custRight">
             <ul class="custList2 custList4">
-                <li>Our solutions<img src="images/plus1.png" /></li>
-                <li>Effortless communication<img src="images/plus1.png" /></li>
+                <li>
+                    <button class="accordion">Our solutions<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion">Effortless communication<img src="images/plus1.png" /></button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -299,5 +310,23 @@
             $(z).animate({ right: '8%' });
         });
     </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none ";
+                } else {
+                    panel.style.display = "block ";
+                }
+            });
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
 </body>
 </html>

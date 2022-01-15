@@ -29,6 +29,11 @@
     background-color: #66B132 !important;
 }
 
+.custList5 li {
+    background-color: white !important;
+    color: black;
+}
+
 .custLeft p {
     font-weight:600;
     font-size:17px;
