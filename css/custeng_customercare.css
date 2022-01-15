@@ -1,3 +1,27 @@
+.LiInsideLi li {
+    list-style: circle !important;
+    padding: 0px !important;
+    color: white !important;
+    margin: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    font-size: 12px !important;
+    /* display: block; */
+    /* justify-content: space-between !important; */
+}
+
+.LiInsideLi2 li {
+    background-color: #5e38d1 !important;
+}
+
+.LiInsideLi3 li {
+    background-color: #f36155 !important;
+}
+
+.LiInsideLi4 li {
+    background-color: #7ecb49 !important;
+}
+
 .custText2 {
     display: flex;
     font-size: 32px;
@@ -442,3 +466,4 @@
             width: 100%;
         }
     }
+}

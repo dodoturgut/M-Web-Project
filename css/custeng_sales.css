@@ -1,10 +1,10 @@
-
 .salesInfo1 {
     color: white;
     font-size: 30px;
     margin: -30px 22%;
     font-weight: 300;
 }
+
 .techInfo1 {
     color: white;
     font-size: 30px;
@@ -16,10 +16,11 @@
     margin-left: 48%;
     margin-top: 20px;
 }
-.plusImg2 img {
-    width: 60px;
-    margin:20px;
-}
+
+    .plusImg2 img {
+        width: 60px;
+        margin: 20px;
+    }
 
 .custList3 li {
     background-color: #EF4436 !important;
@@ -35,40 +36,42 @@
 }
 
 .custLeft p {
-    font-weight:600;
-    font-size:17px;
+    font-weight: 600;
+    font-size: 17px;
 }
 
 .custLeft h2 {
     font-size: 32px;
 }
 
-.exploreImg{
+.exploreImg {
     width: 180px;
     margin-top: 60px;
 }
-.custImg5{
+
+.custImg5 {
     background-image: url("../images/techImg2.png");
 }
 
-.techList1{
+.techList1 {
     margin-top: 20px;
 }
 
-.techList1 span {
-    color: #3E1DA4;
-}
+    .techList1 span {
+        color: #3E1DA4;
+    }
+
 .backOfficeImg1 {
     background-image: url("../images/backOfficeImg2.png");
     background-repeat: no-repeat;
 }
 
-.collection1{
+.collection1 {
     margin: 0 !important;
     padding: 50px;
 }
 
-.socialLeft p{
+.socialLeft p {
     margin-top: 30px;
     font-weight: 600;
     font-size: 17px;
@@ -79,12 +82,12 @@
     background-repeat: no-repeat;
 }
 
-.enterpriseRight p{
-    font-size:20px;
+.enterpriseRight p {
+    font-size: 20px;
 }
 
 .enterpriseRight ul {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .enterpriseRight li {
@@ -99,13 +102,14 @@
 .flexibleSection4 {
     background-color: white;
 }
+
 @media only screen and (max-width: 767px) {
     .collection1 {
         margin: 0 !important;
         padding: 20px;
     }
-
 }
+
 @media only screen and (max-width: 523px) {
     .socialLeft h1 {
         font-size: 25px;

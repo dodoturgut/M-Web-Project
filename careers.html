@@ -15,20 +15,24 @@
     <link rel="stylesheet" href="css/mobileMain.css">
     <link rel="stylesheet" href="css/technology.css">
     <link rel="stylesheet" href="css/careers.css">
+    <link rel="stylesheet" href="css/digitalconsultancy.css">
+    <link rel="stylesheet" href="css/processconsultancy.css">
+    <link rel="stylesheet" href="css/custeng_customercare.css" />
+    <link rel="stylesheet" href="css/custeng_sales.css" />
 </head>
 <body>
     <div class="bg">
         <div class="mobileMenu">
             <div class="mobile-container">
                 <div class="topnav">
-                    <a href="#home" class="active"><img src="images/logo.png" /></a>
+                    <a href="index.html" class="active"><img src="images/logo.png" /></a>
                     <div id="myLinks" class="myLinks">
                         <a href="#news">SERVICES</a>
                         <a href="#contact">INDUSTRIES</a>
-                        <a href="#contact">INSIGHTS</a>
-                        <a href="#contact">CAREERS</a>
-                        <a href="#contact">ABOUT</a>
-                        <a href="#contact">INVESTORS RELATIONS</a>
+                        <a href="insights_blog.html">INSIGHTS</a>
+                        <a href="careers.html">CAREERS</a>
+                        <a href="whatwedo.html">ABOUT</a>
+                        <a href="investors_keyfinancial.html">INVESTORS RELATIONS</a>
                     </div>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
@@ -59,7 +63,7 @@
                             <li><a href="#">SERVICES</a></li>
                             <li><a href="#">INDUSTRIES</a></li>
                             <li><a href="insights_blog.html">INSIGHTS</a></li>
-                            <li><a href="#">CAREERS</a></li>
+                            <li><a href="careers.html">CAREERS</a></li>
                             <li>
                                 <a href="whatwedo.html">ABOUT</a>
                             </li>
@@ -77,7 +81,7 @@
             </div>
         </div>
         <div class="container careersBg">
-            <div class="headText2" id="headText">
+            <div class="headText3" id="headText">
                 <h2>
                     CAREERS
                 </h2>
@@ -85,7 +89,7 @@
                     Start your path at M+
                 </h5>
             </div>
-            <div class="plusSlider">
+            <div class="plusSlider3">
                 <img src="images/plus.png" />
             </div>
         </div>
@@ -106,11 +110,11 @@
                 </p>
             </div>
             <div class="col-xl-6 col-lg-6  col-md-6 col-sm-12 col-xs-12 col-12 careersImg1">
-                <img src="images/careersImg1.png"/>
+                <img src="images/careersImg1.png" />
             </div>
         </div>
     </div>
-    
+
     <section class="careersSection2">
         <div class="careersImg2">
             <div class="col-md-6 col-sm-12 col-12 col-12">
@@ -179,11 +183,31 @@
                 </div>
             </div>
             <div class="col-md-7 col-12">
-                <ul class="experience_ul">
-                    <li><p>Customer Experience</p><i class="fas fa-plus fa-lg"></i></li>
-                    <li><p>Process Automation</p><i class="fas fa-plus fa-lg"></i></li>
-                    <li><p>Agent Experience</p><i class="fas fa-plus fa-lg"></i></li>
-                    <li><p>Quality Assurance and Compliance</p><i class="fas fa-plus fa-lg"></i></li>
+                <ul class="custList2 custList5">
+                    <li>
+                        <button class="accordion">Customer Experience<i class="fas fa-plus fa-lg"></i></button>
+                        <div class="panel" style="background-color: #56912e !important;">
+                            <p>Every industry can only grow together with its customers, hence the importance we attach on customer experience (CX). CX-focused technologies by M+ serve various industries from call centers to banking and finance. We build omnichannel communication platforms via personalized platforms such as Allspace, while also implementing tailor-made self-service applications, artificial intelligence, and bot solutions to facilitate both customer and employee experience. Through high-tech M+ CX products, services, and platforms, your business is ready to tap into customer insights and expectations to constantly improve satisfaction.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion">Process Automation<i class="fas fa-plus fa-lg"></i></button>
+                        <div class="panel" style="background-color: #56912e !important;">
+                            <p>Automation is about not only saving time and effort, but also about optimizing workflows in diagnosis and troubleshooting, improving process efficiency, and streamlining desktop applications. Based upon the latest technologies such as robotics, artificial intelligence, and machine learning, M+ R&D Center offers in-house developed process automation solutions that are adapted according to the requirements of your business. Once your processes are automated, time-consuming tasks including repair and maintenance will be handed over to robotic structures and your qualified personnel will have more time to work on strategy development and high value-generating tasks.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion">Agent Experience Solutions<i class="fas fa-plus fa-lg"></i></button>
+                        <div class="panel" style="background-color: #56912e !important;">
+                            <p>Specifically designed for businesses with customer services, hotlines, and call centers, M+ Agent Experience Solutions offer a smooth and flawless experience to agents, while also automatically improving customer satisfaction. Our unified Smart Agent Desktop solution combines various technologies that an agent might need, while our quality assurance and compliance solutions enable compliance with privacy laws, both local and international. M+ Agent Experience Solutions employ new technologies to continuously improve agent processes, thus shortening the return on investment through advantages in workload, speed, accuracy, and compliance.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion">Business Analytics<i class="fas fa-plus fa-lg"></i></button>
+                        <div class="panel" style="background-color: #56912e !important;">
+                            <p>Business Analytics is mainly about maximizing the use of data analyses to improve business processes and outcomes. With the huge amount of data continuously gathered, analyzed, and processed, businesses need intelligent solutions to derive meaningful insights from such data. M+ Business Analytics solutions benefit from advanced analytics technologies to help companies generate data-based strategies, systems, and decisions. Applicable in all industries from media to services, insurance, automotive, healthcare, energy, and logistics, M+ Business Analytics solutions improve analytical capabilities of your company, which is directly reflected upon financial statements.</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -343,6 +367,22 @@
             $(y).animate({ right: '8%' });
             $(z).animate({ right: '8%' });
         });
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none ";
+                } else {
+                    panel.style.display = "block ";
+                }
+            });
+        }
     </script>
 </body>
 </html>

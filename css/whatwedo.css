@@ -71,44 +71,7 @@
     }
 }
 
-@media only screen and (max-width: 1508px) {
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 60%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-}
-
 @media only screen and (max-width: 992px) {
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 70%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 60%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
     .contentBig {
         position: absolute;
         color: white;
@@ -162,23 +125,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 80%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 70%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
     .contentBigMobile {
         display: flex;
         height: 80px;

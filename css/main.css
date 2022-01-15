@@ -546,38 +546,14 @@ hr.new1 {
         width: 100%;
     }
 
+    .bg .image2 {
+        height: 800px !important;
+        max-height: 800px;
+        width: 100%;
+    }
+
     .bg .shadow {
         position: absolute;
-    }
-
-.plusSlider {
-    position: absolute;
-    left: 50%;
-    bottom: 25%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-}
-
-.headText2 {
-    position: absolute;
-    left: 50%;
-    bottom: 40%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-}
-
-    .headText2 h4 {
-        font-size: 36px;
-    }
-
-    .headText2 h2 {
-        font-size: 60px;
-    }
-
-    .headText2 h5 {
-        font-size: 28px;
     }
 
 .headText {
@@ -1421,24 +1397,6 @@ box01-blue {
         color: white;
     }
 
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 35%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
         .headText2 h4 {
             font-size: 30px;
         }
@@ -1767,40 +1725,6 @@ box01-blue {
         display: block;
     }
 
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 60%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-        .plusSlider img {
-            width: 50%;
-        }
-
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 65%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-        .headText2 h4 {
-            font-size: 20px;
-        }
-
-        .headText2 h2 {
-            font-size: 36px;
-        }
-
-        .headText2 h5 {
-            font-size: 12px;
-        }
-
     .contentBig {
         position: absolute;
         color: white;
@@ -1882,8 +1806,6 @@ box01-blue {
         left: 7%;
     }
 
-
-
     .insight1 .image {
         width: 90%;
         height: 400px;
@@ -1926,45 +1848,16 @@ box01-blue {
         height: 300px;
     }
 
+    .bg .image2 {
+        margin-top: 0px !important;
+        height: 300px !important;
+    }
+
     .doubleText h2 {
         font-size: 22px;
         margin: 20px 0;
         text-align: justify;
     }
-
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 75%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-        .plusSlider img {
-            width: 40%;
-        }
-
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 80%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-        .headText2 h4 {
-            font-size: 12px;
-        }
-
-        .headText2 h2 {
-            font-size: 20px;
-        }
-
-        .headText2 h5 {
-            font-size: 8px;
-        }
 
     .animation .head {
         top: 20%;

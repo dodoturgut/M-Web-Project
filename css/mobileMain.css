@@ -1,3 +1,60 @@
+
+.headText2 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+    .headText2 h2 {
+        font-size: 87px;
+    }
+
+    .headText2 h5 {
+        font-size: 45px;
+    }
+
+.plusSlider {
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.headText3 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+    .headText3 h2 {
+        font-size: 87px;
+    }
+
+    .headText3 h5 {
+        font-size: 45px;
+    }
+
+.plusSlider3 {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
 .headText h5 {
     font-size: 45px;
 }
@@ -176,6 +233,7 @@
 }
 
 @media only screen and (max-width: 1628px) {
+
     .grid-cell-5 h1 {
         font-size: 22px;
     }
@@ -242,31 +300,61 @@
         .grid-cell-5 h3 {
             font-size: 16px;
         }
+}
 
+@media only screen and (max-width: 992px) {
     .headText2 {
         position: absolute;
         left: 50%;
-        bottom: 60%;
+        bottom: 0px;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
+        margin-bottom: 0px;
     }
+
+        .headText2 h2 {
+            font-size: 66px;
+        }
+
+        .headText2 h5 {
+            font-size: 40px;
+        }
+
+    .headText3 {
+        margin-bottom: 250px;
+    }
+
+        .headText3 h2 {
+            font-size: 30px;
+        }
+
+        .headText3 h5 {
+            font-size: 20px;
+        }
 
     .plusSlider {
         position: absolute;
         left: 50%;
-        bottom: 50%;
+        bottom: -100px;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
+        margin-bottom: -150px;
     }
 
         .plusSlider img {
-            width: 65%;
+            width: 80%;
         }
-}
 
-@media only screen and (max-width: 992px) {
+    .plusSlider3 {
+        margin-bottom: 200px;
+    }
+
+        .plusSlider3 img {
+            width: 60%;
+        }
+
     .imageText p {
         font-size: 12px;
     }
@@ -327,57 +415,65 @@
             right: 0;
             bottom: 0;
         }
-
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 55%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 65%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .plusSlider img {
-        width: 50%;
-    }
 }
 
 
 @media only screen and (max-width: 769px) {
-    .imageText p {
-        font-size: 25px;
-    }
-
     .headText2 {
         position: absolute;
         left: 50%;
-        bottom: 60%;
+        bottom: 0px;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
+        margin-bottom: 0px;
     }
+
+        .headText2 h2 {
+            font-size: 30px;
+        }
+
+        .headText2 h5 {
+            font-size: 20px;
+        }
+
+    .headText3 {
+        margin-bottom: 250px;
+    }
+
+        .headText3 h2 {
+            font-size: 30px;
+        }
+
+        .headText3 h5 {
+            font-size: 20px;
+        }
 
     .plusSlider {
         position: absolute;
         left: 50%;
-        bottom: 50%;
+        bottom: 0px;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
+        margin-bottom: -250px;
     }
 
         .plusSlider img {
-            width: 35%;
+            width: 60%;
         }
+
+    .plusSlider3 {
+        margin-bottom: 200px;
+    }
+
+        .plusSlider3 img {
+            width: 60%;
+        }
+
+    .imageText p {
+        font-size: 25px;
+    }
 
     .borderRightText h2 {
         font-size: 25px;
@@ -519,6 +615,49 @@
 }
 
 @media only screen and (max-width: 523px) {
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 250px;
+    }
+
+        .headText2 h2 {
+            font-size: 30px;
+        }
+
+        .headText2 h5 {
+            font-size: 20px;
+        }
+
+    .headText3 {
+        margin-bottom: 250px;
+    }
+
+        .headText3 h2 {
+            font-size: 30px;
+        }
+
+        .headText3 h5 {
+            font-size: 20px;
+        }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+
+        .plusSlider img {
+            width: 60%;
+        }
 
     .gridContainer {
         display: block;
@@ -592,24 +731,6 @@
     .contactRight img {
         height: 250px;
         width: 100%;
-    }
-
-    .headText2 {
-        position: absolute;
-        left: 50%;
-        bottom: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
-    }
-
-    .plusSlider {
-        position: absolute;
-        left: 50%;
-        bottom: 40%;
-        transform: translate(-50%, -50%);
-        color: white;
-        text-align: center;
     }
 
     .services .servicesHeader h2 {
