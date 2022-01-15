@@ -322,7 +322,13 @@
         }
 
     .headText3 {
-        margin-bottom: 250px;
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 550px;
     }
 
         .headText3 h2 {
@@ -348,7 +354,7 @@
         }
 
     .plusSlider3 {
-        margin-bottom: 200px;
+        margin-bottom: 500px;
     }
 
         .plusSlider3 img {
@@ -438,7 +444,7 @@
         }
 
     .headText3 {
-        margin-bottom: 250px;
+        margin-bottom: 550px;
     }
 
         .headText3 h2 {
@@ -464,7 +470,7 @@
         }
 
     .plusSlider3 {
-        margin-bottom: 200px;
+        margin-bottom: 500px;
     }
 
         .plusSlider3 img {
@@ -634,7 +640,7 @@
         }
 
     .headText3 {
-        margin-bottom: 250px;
+        margin-bottom: 550px;
     }
 
         .headText3 h2 {
