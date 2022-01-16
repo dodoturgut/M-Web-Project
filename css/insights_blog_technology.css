@@ -109,9 +109,10 @@
         border-top: 2px solid #f9f0f0;
     }
 
-    .blogtechUl li img {
-        width: 30%;
-    }
+        .blogtechUl li img {
+            width: 30%;
+            min-width: 30%;
+        }
 
     .blogtechUl li p {
         font-size: 25px;
@@ -136,6 +137,7 @@
 
     .rightInsights {
         width: 100%;
+        margin: 60px auto;
     }
 
     .persCard {
