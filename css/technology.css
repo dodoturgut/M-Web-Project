@@ -15,11 +15,19 @@
 
 
 .animation .content .head {
-    top: 25%;
+    top: 20%;
     position: absolute;
     color: white;
     width: 65%;
     right: 45%;
+}
+
+    .animation .content .head h3 {
+        font-size: 30px;
+    }
+
+.animation .content .text h4 {
+    font-size: 24px;
 }
 
 .animation .content .text {
@@ -124,8 +132,8 @@
         right: 45%;
     }
 
-        .animation .content .head h1 {
-            font-size: 26px;
+        .animation .content .head h3 {
+            font-size: 24px;
         }
 
     .animation .content .text {
@@ -136,6 +144,10 @@
         right: 45%;
     }
 
+        .animation .content .text h4 {
+            font-size: 20px;
+        }
+
     .animation .content .buttonArea {
         padding: 30px;
         top: 70%;
@@ -145,14 +157,14 @@
 }
 
 @media only screen and (max-width: 992px) {
-
-    .headTechnology h3 {
+    .animation .content .head h3 {
         font-size: 18px;
     }
 
-    .headTechnology h4 {
+    .animation .content .text h4 {
         font-size: 14px;
     }
+
     .fourPlaced2 {
         display: none;
     }
@@ -213,7 +225,7 @@
         left: -13%;
     }
 
-        .animation .content .text h3 {
+        .animation .content .text h4 {
             font-size: 14px;
         }
 
@@ -236,15 +248,15 @@
     }
 
     .animation .content .head {
-        top: 05%;
+        top: 10%;
         position: absolute;
         color: white;
         width: 75%;
         right: 45%;
     }
 
-        .animation .content .head h1 {
-            font-size: 16px;
+        .animation .content .head h3 {
+            font-size: 14px;
         }
 
     .animation .content .text {
@@ -255,8 +267,8 @@
         left: -13%;
     }
 
-        .animation .content .text h3 {
-            font-size: 10px;
+        .animation .content .text h4 {
+            font-size: 9px;
         }
 
     .animation .content .buttonArea {

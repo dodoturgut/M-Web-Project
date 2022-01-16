@@ -1,3 +1,13 @@
+.image3 {
+    height: 820px !important;
+    max-height: 820px;
+    width: 100%;
+}
+
+.gridBox span {
+    font-weight: 700;
+}
+
 .vision-left {
     style =margin:0;
     font-size: 29px;
@@ -34,7 +44,7 @@
 }
 
 .grid-text-margin {
-    margin-top: 10px !important;
+    margin-top: 100px !important;
 }
 
 .header-top .header3 {
@@ -68,6 +78,14 @@
         position: absolute;
         left: -40%;
         top: 30%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .image3 {
+        height: 750px !important;
+        max-height: 750px;
+        width: 100%;
     }
 }
 

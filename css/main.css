@@ -168,6 +168,10 @@
     padding: 70px;
 }
 
+    .grid-cell-5 span {
+        font-weight: 700;
+    }
+
 .consultancyIcon {
     position: absolute;
     color: #3E1DA4;
@@ -396,10 +400,10 @@ hr.new1 {
     border: 1px solid #FABE00;
 }
 
-.asagi {
-    bottom: 23%;
+.asagi { /*
+    bottom: 23%;*/
     position: absolute;
-    width: 70%;
+    width: 80%;
 }
 
 .footerList ul li {
@@ -969,7 +973,7 @@ hr.new1 {
 
 .exploresText2 {
     font-size: 27px;
-    line-height: 16px;
+    line-height: 26px;
     font-weight: 100;
 }
 
@@ -1397,17 +1401,17 @@ box01-blue {
         color: white;
     }
 
-        .headText2 h4 {
-            font-size: 30px;
-        }
+    .headText2 h4 {
+        font-size: 30px;
+    }
 
-        .headText2 h2 {
-            font-size: 54px;
-        }
+    .headText2 h2 {
+        font-size: 54px;
+    }
 
-        .headText2 h5 {
-            font-size: 22px;
-        }
+    .headText2 h5 {
+        font-size: 22px;
+    }
 
     .contentBig {
         position: absolute;
@@ -1522,6 +1526,11 @@ box01-blue {
 }
 
 @media only screen and (max-width: 992px) {
+    .asagi {
+        bottom: 40%;
+        position: absolute;
+        width: 80%;
+    }
 
     .headText2 h4 {
         font-size: 24px;
