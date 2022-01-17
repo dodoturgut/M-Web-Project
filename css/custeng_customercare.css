@@ -305,6 +305,12 @@
         padding: 0;
     }
 
+    .custInfo1 {
+        color: white;
+        font-size: 30px;
+        margin: 0px 10%;
+    }
+}
     @media only screen and (max-width: 523px) {
         .custSection2 {
             display: block;
@@ -460,5 +466,5 @@
         .rightCard2Img > img {
             width: 100%;
         }
-    }
+    
 }
