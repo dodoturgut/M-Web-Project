@@ -64,6 +64,7 @@
 .backOfficeImg1 {
     background-image: url("../images/backOfficeImg2.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .collection1 {
@@ -80,6 +81,7 @@
 .socialMediaImg {
     background-image: url("../images/techImg1.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .enterpriseRight p {

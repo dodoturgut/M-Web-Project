@@ -173,6 +173,7 @@
 
 .contactSales {
     width: 90%;
+    margin: auto;
 }
 
 .insightContainer {
@@ -1143,10 +1144,10 @@ hr.new1 {
 .contact {
     padding: 50px;
     margin: 0;
-    position: absolute;
-    top: 50%;
+    /*position: absolute;*/
+    /*top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%);*/
 }
 
     .contact .buttonArea {
@@ -1200,7 +1201,7 @@ hr.new1 {
 
 .contactLeft {
     background-color: #3E1DA4;
-    height: 750px;
+    /*height: 750px;*/
 }
 
 .contactMiniHead {
@@ -1220,7 +1221,7 @@ hr.new1 {
     }
 
 .contactText {
-    padding: 50px;
+    /*padding: 50px;*/
     padding-left: 0px;
     color: white;
 }

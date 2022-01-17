@@ -265,53 +265,68 @@
 /*.rightCard2Img > img {
     height: 80%;
 }*/
-
-
 @media only screen and (max-width: 767px) {
     .custImg2 {
-        display: none;
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 100px;
+        height: auto;
     }
 
     .custImg3 {
-        display: none;
-    }
-
-    .salesInfo1 {
-        margin: 10px !important;
-        padding: 40px;
-    }
-
-    .custSection4 {
-        display: block;
-    }
-
-    .custCard {
-        display: block;
-    }
-
-    .leftCard {
-        width: 100%;
-    }
-
-    .rightCard {
-        width: 100%;
-    }
-
-    .custLeft h2 {
-        font-size: 23px !important;
-    }
-
-    .custList2 {
-        padding: 0;
-    }
-
-    .custInfo1 {
-        color: white;
-        font-size: 30px;
-        margin: 0px 10%;
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 100px;
+        height: auto;
     }
 }
-    @media only screen and (max-width: 523px) {
+
+    @media only screen and (max-width: 767px) {
+        .custImg2 {
+            display: none;
+        }
+
+        .custImg3 {
+            display: none;
+        }
+
+        .salesInfo1 {
+            margin: 10px !important;
+            padding: 40px;
+        }
+
+        .custSection4 {
+            display: block;
+        }
+
+        .custCard {
+            display: block;
+        }
+
+        .leftCard {
+            width: 100%;
+        }
+
+        .rightCard {
+            width: 100%;
+        }
+
+        .custLeft h2 {
+            font-size: 23px !important;
+        }
+
+        .custList2 {
+            padding: 0;
+        }
+
+        .custInfo1 {
+            color: white;
+            font-size: 30px;
+            margin: 0px 10%;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
         .custSection2 {
             display: block;
         }
@@ -466,5 +481,4 @@
         .rightCard2Img > img {
             width: 100%;
         }
-    
-}
+    }
