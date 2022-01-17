@@ -281,10 +281,10 @@
     }
 }
 
-    @media only screen and (max-width: 767px) {
-        .custImg2 {
-            display: none;
-        }
+@media only screen and (max-width: 767px) {
+    .custImg2 {
+        display: none;
+    }
 
         .custImg3 {
             display: none;
@@ -319,166 +319,166 @@
             padding: 0;
         }
 
-        .custInfo1 {
-            color: white;
-            font-size: 30px;
-            margin: 0px 10%;
-        }
+    .custInfo1 {
+        color: white;
+        font-size: 30px;
+        margin: 0px 10%;
     }
-
-    @media only screen and (max-width: 600px) {
+}
+    @media only screen and (max-width: 523px) {
         .custSection2 {
             display: block;
         }
 
-            .custSection2 > div p {
-                text-align: justify;
-            }
-
-        .custText2 {
-            font-size: 24px;
+        .custSection2 > div p {
+            text-align: justify;
         }
 
+    .custText2 {
+        font-size: 24px;
+    }
 
-        .custList li {
-            display: grid;
-            justify-content: center;
-            font-size: 17px;
+
+    .custList li {
+        display: grid;
+        justify-content: center;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .custList2 {
+        padding: 0;
+        margin: 50px 0;
+    }
+
+        .custList2 li {
+            padding: 10px;
+            margin: 15px;
+            font-size: 23px;
+            align-items: center;
+        }
+
+            .custList2 li img {
+                width: 20px;
+                height: 20px;
+            }
+
+    .custInfo1 {
+        font-size: 25px;
+        margin: 0px 20px;
+        padding: 50px 0;
+        text-align: justify;
+    }
+
+    .custInfo4 {
+        width: 90%;
+        font-size: 22px;
+        margin: 0px 20px;
+        padding: 20px 0;
+        text-align: justify;
+    }
+
+    .plusImg {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .custImg1 {
+        height: 370px;
+    }
+
+    .plusImg img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .listImg {
+        margin: auto;
+    }
+
+    .flexRight div {
+        text-align: center;
+    }
+
+    .custSection4 {
+        display: block;
+        margin: 10px;
+    }
+
+    .custCard {
+        width: 90%;
+        display: block;
+        margin: 30px auto;
+    }
+
+    .cardDiv {
+        margin: 0;
+    }
+
+    .leftCard {
+        width: 100%;
+        margin: 20px 0;
+        padding: 25px;
+    }
+
+        .leftCard > div {
+            margin: 0px;
+        }
+
+    .rightCard {
+        width: 100%;
+        margin: 0;
+    }
+
+    .rightCard1 {
+        display: block;
+    }
+
+        .rightCard1 .rightCard1Img {
             text-align: center;
         }
 
-        .custList2 {
-            padding: 0;
-            margin: 50px 0;
-        }
+    .rightCard2 {
+        display: block;
+    }
 
-            .custList2 li {
-                padding: 10px;
-                margin: 15px;
-                font-size: 23px;
-                align-items: center;
-            }
-
-                .custList2 li img {
-                    width: 20px;
-                    height: 20px;
-                }
-
-        .custInfo1 {
-            font-size: 25px;
-            margin: 0px 20px;
-            padding: 50px 0;
-            text-align: justify;
-        }
-
-        .custInfo4 {
-            width: 90%;
-            font-size: 22px;
-            margin: 0px 20px;
-            padding: 20px 0;
-            text-align: justify;
-        }
-
-        .plusImg {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        .custImg1 {
-            height: 370px;
-        }
-
-        .plusImg img {
-            width: 70px;
-            height: 70px;
-        }
-
-        .listImg {
-            margin: auto;
-        }
-
-        .flexRight div {
+        .rightCard2 .rightCard2Img {
             text-align: center;
         }
 
-        .custSection4 {
-            display: block;
-            margin: 10px;
-        }
 
-        .custCard {
-            width: 90%;
-            display: block;
-            margin: 30px auto;
-        }
+    .flexible {
+        margin: 10px;
+        display: block;
+    }
 
-        .cardDiv {
-            margin: 0;
-        }
+    .flexRight h4 {
+        font-size: 20px;
+    }
 
-        .leftCard {
-            width: 100%;
-            margin: 20px 0;
-            padding: 25px;
-        }
+    .flexRight h1 {
+        font-size: 25px;
+        margin-top: 25px;
+        text-align: justify;
+    }
 
-            .leftCard > div {
-                margin: 0px;
-            }
+    .flexRight p {
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: justify;
+    }
 
-        .rightCard {
-            width: 100%;
-            margin: 0;
-        }
+    .custImg2, .custImg3 {
+        display: none;
+    }
 
-        .rightCard1 {
-            display: block;
-        }
-
-            .rightCard1 .rightCard1Img {
-                text-align: center;
-            }
-
-        .rightCard2 {
-            display: block;
-        }
-
-            .rightCard2 .rightCard2Img {
-                text-align: center;
-            }
-
-
-        .flexible {
-            margin: 10px;
-            display: block;
-        }
-
-        .flexRight h4 {
-            font-size: 20px;
-        }
-
-        .flexRight h1 {
-            font-size: 25px;
-            margin-top: 25px;
-            text-align: justify;
-        }
-
-        .flexRight p {
-            font-size: 20px;
-            margin-top: 25px;
-            text-align: justify;
-        }
-
-        .custImg2, .custImg3 {
-            display: none;
-        }
-
-        .rightCard1Img > img {
-            width: 100%;
-        }
+    .rightCard1Img > img {
+        width: 100%;
+    }
 
         .rightCard2Img > img {
             width: 100%;
         }
-    }
+    
+}
