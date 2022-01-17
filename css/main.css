@@ -1561,7 +1561,7 @@ box01-blue {
     }
 
     .animation .head {
-        top: 30%;
+        margin-top: -100px;
         position: absolute;
         color: white;
         width: 65%;
@@ -1569,7 +1569,7 @@ box01-blue {
     }
 
         .animation .head h1 {
-            font-size: 28px;
+            font-size: 24px;
         }
 
     .animation .text {
@@ -1599,6 +1599,26 @@ box01-blue {
 }
 
 @media only screen and (max-width: 1304px) {
+    .heigth1000px {
+        height: 500px;
+    }
+
+    .bgsag {
+        height: 500px;
+    }
+
+    .bgsol {
+        height: 500px;
+    }
+
+    .fourPlaced {
+        position: absolute;
+        left: -16.6%;
+        z-index: 999;
+        margin-top: 0px;
+        text-align: center;
+    }
+
     .fourPlaced2 .box0 p {
         text-align: left;
         padding: 20px;
@@ -1606,14 +1626,6 @@ box01-blue {
         font-size: 22px;
         font-weight: 600;
         width: 50%;
-    }
-
-    .test {
-        display: none;
-    }
-
-    .test2 {
-        display: block;
     }
 
     .threeFirst {
@@ -1644,15 +1656,15 @@ box01-blue {
     }
 
     .headText2 h4 {
-        font-size: 30px;
+        font-size: 82px;
     }
 
     .headText2 h2 {
-        font-size: 54px;
+        font-size: 52px;
     }
 
     .headText2 h5 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .contentBig {
@@ -1671,14 +1683,6 @@ box01-blue {
             padding-top: 30px;
             width: 73%;
         }
-
-    .fourPlaced {
-        position: absolute;
-        left: -16.6%;
-        z-index: 999;
-        top: 38%;
-        text-align: center;
-    }
 
     .animation .text {
         top: 60%;
@@ -1743,19 +1747,10 @@ box01-blue {
 
     .headText {
         position: absolute;
-        top: 10%;
+        top: 20%;
         left: -10%;
         color: white;
     }
-
-    .mobileMenu {
-        display: block;
-    }
-
-    .webMenu {
-        display: none;
-    }
-
 
     .insightsLeft .head {
         margin-left: 33%;
@@ -1767,7 +1762,26 @@ box01-blue {
     }
 }
 
+@media only screen and (max-width: 1198px) {
+
+    .mobileMenu {
+        display: block;
+    }
+
+    .webMenu {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 992px) {
+    .test {
+        display: none;
+    }
+
+    .test2 {
+        display: block;
+    }
+
     .asagi {
         bottom: 40%;
         position: absolute;
@@ -2010,7 +2024,7 @@ box01-blue {
     }
 
     .animation .head {
-        top: 15%;
+        top: 40%;
         position: absolute;
         color: white;
         width: 90%;
@@ -2111,7 +2125,7 @@ box01-blue {
     }
 
     .animation .head {
-        top: 20%;
+        top: 40%;
         position: absolute;
         color: white;
         width: 90%;
@@ -2131,7 +2145,7 @@ box01-blue {
         padding: 30px;
         top: 70%;
         position: absolute;
-        left: -40%;
+        left: -20%;
     }
 
     .headText {

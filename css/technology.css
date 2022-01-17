@@ -123,9 +123,32 @@
     }
 }
 
+@media only screen and (max-width: 1307px) {
+    .animation .content .head h3 {
+        font-size: 26px;
+    }
+
+    .animation .content .text h4 {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width: 1204px) {
+    .box0 p {
+        font-weight: 300 !important;
+        padding: 0px !important;
+        position: absolute !important;
+        top: 10% !important;
+        bottom: 0 !important;
+        left: 10% !important;
+    }
+
+    .box01 h1 {
+        font-size: 32px;
+    }
+
     .animation .content .head {
-        top: 20%;
+        top: 30%;
         position: absolute;
         color: white;
         width: 65%;
@@ -133,7 +156,7 @@
     }
 
         .animation .content .head h3 {
-            font-size: 24px;
+            font-size: 20px;
         }
 
     .animation .content .text {
@@ -145,7 +168,7 @@
     }
 
         .animation .content .text h4 {
-            font-size: 20px;
+            font-size: 16px;
         }
 
     .animation .content .buttonArea {
@@ -203,10 +226,8 @@
 
 
 @media only screen and (max-width: 767px) {
-
-
     .animation .content .head {
-        top: 05%;
+        top: 35%;
         position: absolute;
         color: white;
         width: 75%;
@@ -248,7 +269,7 @@
     }
 
     .animation .content .head {
-        top: 10%;
+        top: 30%;
         position: absolute;
         color: white;
         width: 75%;
@@ -275,6 +296,6 @@
         padding: 30px;
         top: 75%;
         position: absolute;
-        left: -40%;
+        left: -20%;
     }
 }
