@@ -204,7 +204,7 @@
 
 .insight1 .insightHead {
     z-index: 999;
-    bottom: 15%;
+    bottom: 20%;
     position: absolute;
 }
 
@@ -240,6 +240,59 @@
 
     .grid-cell-5 h3 {
         font-size: 16px;
+    }
+
+    .imageText p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .imageText p {
+        font-size: 16px;
+    }
+    .headText2 {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .plusSlider {
+        position: absolute;
+        left: 50%;
+        bottom: -100px;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    .insight1 .insightHead {
+        z-index: 999;
+        bottom: 25%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 1158px) {
+
+    .imageText p {
+        font-size: 14px;
+    }
+    .insight1 .insightHead {
+        z-index: 999;
+        bottom: 20%;
+        position: absolute;
+    }
+
+    .insight1 .insightContent p {
+        font-size: 16px;
+        font-weight: 300;
     }
 }
 
@@ -575,7 +628,7 @@
     .gridBox .header {
         color: white;
         padding: 30px;
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
     .multipleContainer {

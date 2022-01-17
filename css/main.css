@@ -104,7 +104,7 @@
                 padding: 50px;
                 width: 70%;
                 height: 528px;
-                color:white;
+                color: white;
             }
 
                 .dropdown-content .list .inside3 .content h2 {
@@ -1472,6 +1472,53 @@ box01-blue {
     }
 }
 
+@media only screen and (max-width: 1551px) {
+
+    .borderRightText {
+        padding: 0px;
+    }
+
+    .solTarafaltmenu li {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 1430px) {
+    .gridBox {
+        width: 100%;
+        height: 386px;
+        z-index: 99;
+    }
+
+        .gridBox .header {
+            color: white;
+            padding: 30px;
+            padding-top: 50px;
+        }
+
+    .gridDiv {
+        height: 386px;
+    }
+
+    .imgGrid {
+        width: 100%;
+        height: 386px;
+    }
+
+    .borderRightText h2 {
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .borderRightText li {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 18px;
+        list-style: none;
+        font-weight: 100;
+    }
+}
+
 @media only screen and (max-width: 1360px) {
     .dropdown-content .list .inside2 ul li {
         padding: 10px;
@@ -1500,7 +1547,7 @@ box01-blue {
         min-width: 700px;
         height: 528px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+        z-index: 99999;
     }
 
 
@@ -1550,7 +1597,7 @@ box01-blue {
     }
 }
 
-@media only screen and (max-width: 1204px) {
+@media only screen and (max-width: 1304px) {
     .fourPlaced2 .box0 p {
         text-align: left;
         padding: 20px;
