@@ -1599,6 +1599,28 @@ box01-blue {
 }
 
 @media only screen and (max-width: 1304px) {
+    .insightsLeft .head {
+        position: absolute;
+        right: 0;
+        color: white;
+        top: 0;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .insightsRight {
+        height: 836px;
+        width: 66%;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        margin-top: -82px;
+    }
+
+        .insightsRight .head {
+            font-size: 20px;
+        }
+
     .heigth1000px {
         height: 500px;
     }
@@ -1936,6 +1958,28 @@ box01-blue {
 }
 
 @media only screen and (max-width: 767px) {
+    .insightsLeft .head {
+        position: absolute;
+        right: 0;
+        color: white;
+        top: 0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .insightsRight {
+        height: 836px;
+        width: 66%;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        margin-top: -84px;
+    }
+
+        .insightsRight .head {
+            font-size: 14px;
+        }
+
     .heigth1000px {
         height: 700px;
     }

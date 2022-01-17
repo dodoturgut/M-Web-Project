@@ -43,9 +43,9 @@
     max-height: 488px;
 }
 
-.grid-text-margin {
+/*.grid-text-margin {
     margin-top: 100px !important;
-}
+}*/
 
 .header-top .header3 {
     color: white;
@@ -81,7 +81,7 @@
     }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
     .image3 {
         height: 750px !important;
         max-height: 750px;
