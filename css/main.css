@@ -1201,7 +1201,7 @@ hr.new1 {
 
 .contactLeft {
     background-color: #3E1DA4;
-    /*height: 750px;*/
+    height: 750px;
 }
 
 .contactMiniHead {
@@ -1221,7 +1221,7 @@ hr.new1 {
     }
 
 .contactText {
-    /*padding: 50px;*/
+    padding: 50px;
     padding-left: 0px;
     color: white;
 }
