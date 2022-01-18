@@ -304,7 +304,7 @@ custList2 .panel {
 @media only screen and (max-width: 792px) {
     .flexible {
         margin: 50px 10%;
-        display: initial;
+        display: block;
     }
 
 

@@ -268,7 +268,7 @@
 /*.rightCard2Img > img {
     height: 80%;
 }*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 792px) {
     .custImg2 {
         margin-top: 30px;
         margin-left: 30px;
@@ -290,6 +290,10 @@
         color: white;
         font-size: 22px;
         margin: 0px 8%;
+        padding: 20px;
+    }
+    .flexible{
+        display: block;
     }
 }
 
