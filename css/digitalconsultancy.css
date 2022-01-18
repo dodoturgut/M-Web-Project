@@ -327,6 +327,12 @@ custList2 .panel {
         .one p {
             font-size: 22px;
         }
+
+    .consultancy h2 {
+        font-size: 28px !important;
+        text-align: justify;
+        margin: 100px 10px;
+    }
 }
 
 @media only screen and (max-width: 523px) {
