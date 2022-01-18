@@ -365,11 +365,13 @@ custList2 .panel {
         .operationalFirst p:nth-child(1) {
             font-size: 25px;
             line-height: 1.2;
+            text-align: justify;
         }
 
         .operationalFirst p:nth-child(2) {
             font-size: 22px;
             line-height: 1.3;
+            text-align: justify;
         }
 
     .operationalSecond img {
