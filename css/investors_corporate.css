@@ -23,46 +23,35 @@
     }
 
     .person .personFooter {
-        height: 50px;
+        height: 60px;
         background-color: #072c50;
         text-align: center;
     }
+    .person .personFooter div{
+        height: 100%;
+    }
 
         .person .personFooter p {
-            font-size: 26px;
+            font-size: 22px;
+            height: 100%;
             color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
         }
 
         .person .personFooter i {
             font-size: 30px;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
             color: white;
         }
 
 .corporate1 {
     padding-left: 200px;
-}
-
-@media only screen and (max-width: 1368px) {
-
-    .person .personFooter p {
-        font-size: 18px;
-        color: white;
-    }
-
-    .person .personFooter i {
-        font-size: 20px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        color: white;
-    }
 }
 
 
