@@ -109,9 +109,9 @@ custList2 .panel {
     padding: 0;
 }
 
-    .purpleimg img {
+    /*.purpleimg img {
         width: 100%;
-    }
+    }*/
 
 .purpleall {
     position: relative;
@@ -141,7 +141,7 @@ custList2 .panel {
 .purplebot {
     position: absolute;
     z-index: 999;
-    bottom: 20%;
+    bottom: 100px;
     display: inherit;
     text-align: center;
     justify-content: center;
@@ -289,9 +289,9 @@ custList2 .panel {
     .purpleall {
         display: block;
     }
-    .purpleimg img {
+    /*.purpleimg img {
         width: auto;
-    }
+    }*/
 
     .one h3 {
         font-size: 22px;
