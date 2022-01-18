@@ -767,7 +767,7 @@
     }
 
     .imgGrid {
-        height: 300px;
+        height: auto;
     }
 
     .gridDiv {

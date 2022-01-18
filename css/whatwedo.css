@@ -9,13 +9,14 @@
 }
 
 .vision-left {
-    style =margin:0;
+    margin:0;
     font-size: 29px;
 }
 
 .vision-right {
     margin: 0;
-    font-size: 45px;
+    font-size: 38px;
+    text-align: justify;
 }
 
 .vision-width {
@@ -69,16 +70,8 @@
 
 .plusImage {
     position: absolute;
-    left: -16%;
+    left: -45px;
     top: 30%;
-}
-
-@media only screen and (max-width: 1402px) {
-    .plusImage {
-        position: absolute;
-        left: -25%;
-        top: 30%;
-    }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -200,12 +193,12 @@
     }
 
     .gridBox .text p {
-        font-size: 12px;
+        font-size: 17px;
         font-weight: 300;
     }
 
     .imgGrid {
-        height: 200px;
+        height: auto;
     }
 
     .animli {
