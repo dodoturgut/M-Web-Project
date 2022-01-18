@@ -169,6 +169,7 @@
 
 .humanCentric {
     width: 90%;
+    margin-top: 100px;
 }
 
 .contactSales {
@@ -897,6 +898,8 @@ hr.new1 {
 .container1 {
     height: 1234px;
 }
+
+
 
 .m-0 {
     padding: 0;
@@ -1965,6 +1968,11 @@ box01-blue {
         padding: 0px;
         text-align: center;
         margin: 50px auto;
+    }
+    .indexTextCenter {
+        width: 100%;
+        text-align: center;
+        text-align-last: center;
     }
 }
 
