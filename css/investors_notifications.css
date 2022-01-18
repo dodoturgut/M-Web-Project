@@ -78,7 +78,8 @@
     }
 
     .docs {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
 
     .media {
@@ -93,4 +94,10 @@
 
 .docs .m-50 {
     margin-left: 50px;
+}
+
+@media only screen and (max-width: 1360px) {
+    .docs .m-10 {
+        margin-left: 10px;
+    }
 }
