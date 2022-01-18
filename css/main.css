@@ -462,15 +462,15 @@
 
 .borderTop {
     position: absolute;
-    right: 1%;
-    top: -1%;
+    right: 10px;
+    top: -5px;
     width: 50%;
 }
 
 .borderBottom {
     position: absolute;
-    left: 1%;
-    bottom: -1%;
+    left: 10px;
+    bottom: -5px;
     width: 50%;
 }
 
@@ -1954,6 +1954,11 @@ box01-blue {
         list-style-type: none;
         margin: 0;
         padding: 0;
+    }
+
+    .exploresText {
+        font-size: 35px;
+        margin: 30px auto;
     }
 }
 

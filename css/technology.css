@@ -89,8 +89,12 @@
     width: 50%;
 }
 
+.stepImg {
+    margin: 50px auto;
+}
+
 .stepLeft {
-    display: inline-grid;
+    display: block;
     padding: 100px;
     justify-items: flex-end;
     text-align: end;
@@ -112,6 +116,7 @@
     }
 
 
+
 @media only screen and (max-width: 1831px) {
 
     .headTechnology h3 {
@@ -123,7 +128,7 @@
     }
 }
 
-@media only screen and (max-width: 1307px) {
+@media only screen and (max-width: 1255px) {
     .animation .content .head h3 {
         font-size: 26px;
     }
@@ -131,9 +136,13 @@
     .animation .content .text h4 {
         font-size: 20px;
     }
+
+    .stepImg {
+        margin: 50px auto;
+    }
 }
 
-@media only screen and (max-width: 1204px) {
+@media only screen and (max-width: 1255px) {
     .box0 p {
         font-weight: 300 !important;
         padding: 0px !important;
@@ -176,6 +185,35 @@
         top: 70%;
         position: absolute;
         left: -13%;
+    }
+    .technoText {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        text-align-last: center;
+    }
+
+    .stepImages {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .stepLeft {
+        display: contents;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .stepRight {
+        display: contents;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .explores {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -221,6 +259,29 @@
         top: 70%;
         position: absolute;
         left: -13%;
+    }
+    .technoText {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        text-align-last: center;
+    }
+
+    .stepImages {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .stepLeft {
+        display: contents;
+        justify-content: center;
+        text-align: center;
+    }
+    .stepRight {
+        display: contents;
+        justify-content: center;
+        text-align: center;
     }
 }
 
