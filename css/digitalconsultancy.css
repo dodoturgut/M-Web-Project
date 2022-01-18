@@ -264,6 +264,10 @@ custList2 .panel {
     margin-bottom: 100px;
     }
 
+    .operationalThird{
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 792px) {
