@@ -1960,6 +1960,12 @@ box01-blue {
         font-size: 35px;
         margin: 30px auto;
     }
+
+    .borderRightText {
+        padding: 0px;
+        text-align: center;
+        margin: 50px auto;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1969,7 +1975,7 @@ box01-blue {
         color: white;
         top: 0;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 21px;
     }
 
     .insightsRight {
@@ -1982,7 +1988,7 @@ box01-blue {
     }
 
         .insightsRight .head {
-            font-size: 14px;
+            font-size: 21px;
         }
 
     .heigth1000px {
