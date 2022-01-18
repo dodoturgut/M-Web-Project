@@ -2004,8 +2004,10 @@ box01-blue {
     }
 
     .humanCentric {
-        padding-top: 250px;
+        /*padding-top: 250px;*/
     }
+
+    
 
     .grid-cell-1 {
         height: 400px;

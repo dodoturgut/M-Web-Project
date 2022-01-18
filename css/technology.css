@@ -260,7 +260,16 @@
         position: absolute;
         left: -13%;
     }
-    .technoText {
+    .technoText1 {
+        margin-top: 200px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        text-align-last: center;
+    }
+
+    .technoText2 {
+        margin-top: 50px;
         width: 100%;
         text-align: center;
         justify-content: center;

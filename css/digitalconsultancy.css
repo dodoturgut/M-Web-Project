@@ -253,6 +253,19 @@ custList2 .panel {
         }
 }
 
+@media only screen and (max-width: 992px) {
+    .operationalThird {
+        display: none;
+    }
+    .operationalFirst > p:nth-child(1) {
+        text-align: justify;
+    }
+    .operationalFirst > p:nth-child(2){
+    margin-bottom: 100px;
+    }
+
+}
+
 @media only screen and (max-width: 792px) {
     custList2 .panel {
         font-size: 12px;
@@ -296,6 +309,7 @@ custList2 .panel {
     .one h3 {
         font-size: 22px;
     }
+
     .one p {
         font-size: 18px;
     }
@@ -332,6 +346,9 @@ custList2 .panel {
         font-size: 28px !important;
         text-align: justify;
         margin: 100px 10px;
+    }
+    .operationalThird {
+        display: none;
     }
 }
 
