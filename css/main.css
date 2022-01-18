@@ -1,4 +1,8 @@
-﻿/*doprdown menu1*/
+﻿.footerList ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*doprdown menu1*/
 .dropbtn {
     background-color: #04aa6d00;
     color: black;
