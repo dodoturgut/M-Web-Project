@@ -1,9 +1,9 @@
 .btn-shine {
-    background: linear-gradient(to right, #ffffff 0, #585858 0%, #ffffff 70%);
+    background: linear-gradient(to right, #ffffff 0, #585858 1%, #ffffff 100%);
     background-position: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: shine 3s;
+    animation: shine 4s;
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
     text-decoration: none;
