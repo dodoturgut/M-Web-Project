@@ -163,36 +163,68 @@
                 </div>
             </div>
         </div>
-        <div id="bg">
-            <img src="images/contact.png" class="image1" />
+        <div id="bg" class="contactbg" >
+            <img src="images/contact.png"/>
         </div>
     </div>
-   
-    <div class="contact-form">
-        <div class="contact-text">
-            <h3>Get in touch with our team</h3>
-            <p>Contact us and let us know how we can support you and your business.</p>
+
+
+    <section style="display: inline-flex;">
+        <div class="col-md-6">
+            <div class="contactleft">
+                <div class="c-lef1">
+                    <img src="images/contactleft1.png" />
+                    <h3>Meritus ulaganja d.d. Address</h3>
+                    <p>Heinzelova ulica 62/a, Zagreb, Croatia</p>
+                </div>
+
+                <div class="c-left2">
+                    <img style=" width: 16%;" src="images/contactleft2.png" />
+                    <h3>Contact support / General inquiries</h3>
+                    <p>+385 1 6447 897</p>
+                </div>
+
+                <div class="c-left3">
+                    <img src="images/contactleft3.png" />
+                    <h3>Investors / Contact Person Ana Babic</h3>
+                    <p>investitori@mpluscc.com</p>
+                </div>
+            </div>
         </div>
-        <form id="contact" action="/" method="post">
-            <input class="input1" type="text" name="firstname" placeholder="First Name" /> 
-            <input class="input2" type="text" name="lastname" placeholder="Last Name" />
-            <input  class="contact-w100" type="text" name="companyname" placeholder="Company Name"  />
-            <select class="contact-w100" >
-                <option>Select Depertman</option>
-            </select>
 
-            <select class="contact-w100">
-                <option>Country</option>
-            </select>
-            <input class="input1 m-bottom" type="email" name="email" placeholder="Your Email" />
-            <input class="input2 m-bottom" type="text" name="subject" placeholder="Subject" /> <br />
-            <input class="contact-w100" type="text" name="Message" placeholder="Your Message"  />
 
-        </form>
-        <p class="contact-p">We use information you provided so that we can contact you regarding your inquiries. You can read more about how we handle 
-        your personal data in our Notice on the processing of personal data,</p>
-        <button class="butt"  type="button">CONTACT US</button>
-    </div>
+
+        <div class="col-md-6 ">
+            <div class="contact-form">
+                <div class="contact-text">
+                    <h3>Get in touch with our team</h3>
+                    <p>Contact us and let us know how we can support you and your business.</p>
+                </div>
+                <form id="contact" action="/" method="post">
+                    <input class="col-md-5 pl-0 input1" type="text" name="firstname" placeholder="First Name"  style=" float: left;"/>
+                    <input class="col-md-5 pl-0 input2" type="text" name="lastname" placeholder="Last Name" style="float:right;" />
+                    <input class="contact-w100" type="text" name="companyname" placeholder="Company Name" />
+                    <select class="contact-w100">
+                        <option>Select Depertman</option>
+                    </select>
+                    <select class="contact-w100">
+                        <option>Country</option>
+                    </select>
+                    <input class="input1 m-bottom pl-0" type="email" name="email" placeholder="Your Email" />
+                    <input class="input2 m-bottom pl-0" type="text" name="subject" placeholder="Subject" /> <br />
+                    <input class="contact-w100" type="text" name="Message" placeholder="Your Message" />
+
+                </form>
+                <p class="contact-p">
+                    We use information you provided so that we can contact you regarding your inquiries. You can read more about how we handle
+                    your personal data in our Notice on the processing of personal data,
+                </p>
+                <button class="butt" type="button">CONTACT US</button>
+            </div>
+        </div>
+    </section>
+
+
 
 
     <div class="footer">
