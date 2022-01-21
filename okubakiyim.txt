@@ -6,11 +6,13 @@
 +tech support  (yeşil ilk kutu silinecek mi?)
 (contact sayfasına link yönlendirilecek)
 +socialmedia
++enterprise solutions
+-consultancy pages (dodo)
++backoffice
+
 -home(index)
 -about
 -insights-inputs
--consultancy pages
--enterprise solutions
 -collection   (20220105_REACTION_V_1)
 -back office  (20220105 version 1)
 -social (button linkleri)
@@ -30,3 +32,4 @@ email adresleri gelecek(büyük ihtimalle accordionda)
 -Mobil/tablet açılır menu
 -Mobil fontlar hepsi aynı olacak ve text align justify
 -Accordionlar arasında boşluk olacak ve geçiş animasyonu bakılmalı
+-Contact us buttonları linklenecek hepsinde

@@ -5,7 +5,7 @@
     margin: 0px !important;
     margin-bottom: 0px !important;
     margin-top: 0px !important;
-    font-size: 12px !important;
+    font-size: 16px !important;
     /* display: block; */
     /* justify-content: space-between !important; */
 }
@@ -20,6 +20,10 @@
 
 .LiInsideLi4 li {
     background-color: #7ecb49 !important;
+}
+
+.LiInsideLi5 li {
+    background-color: #EF4436 !important;
 }
 
 .custText2 {
@@ -79,6 +83,8 @@
 
 .listImg {
     margin-right: 15px;
+    width: 69px;
+    height: 69px;
 }
 
 .custList ul {
@@ -90,7 +96,15 @@
     margin: 5px;
     padding: 10px 22px;
     background: #F2F2F2;
+    display: flex;
+    align-items: center;
+}
+
+.custList p {
+    margin: 0;
     font-size: 18px;
+    font-weight: 400;
+    align-self: center;
 }
 
 .custCard {
@@ -220,9 +234,8 @@
     padding: 20px;
     background-color: #3E1DA4;
     color: white;
-    margin: 10px;
+    margin-top: 10px;
     margin-bottom: 0px;
-    margin-top: 0px;
     font-size: 25px;
     /* display: block; */
     justify-content: space-between;
