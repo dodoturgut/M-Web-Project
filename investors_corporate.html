@@ -196,7 +196,7 @@
             <img src="images/investorsBg.png" class="image" />
         </div>
         <div class="container">
-            <div class="keyHeadText">
+            <div class="keyHeadText" id="keyHeadText">
                 <p class="p-left col-xs-12">Corporate<span>governance</span></p>
                 <p class="p-right col-xs-12">Home/Investors/Corporate-governance...</p>
             </div>
@@ -490,6 +490,7 @@
         function myFunction() {
             var x = document.getElementById("myLinks");
             var y = document.getElementById("headText");
+            var y = document.getElementById("keyHeadText");
             if (x.style.display === "block") {
                 x.style.display = "none";
                 y.style.zIndex = "9999";

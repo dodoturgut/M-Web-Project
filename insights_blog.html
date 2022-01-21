@@ -45,22 +45,6 @@
         </div>
         <div class="webMenu">
             <div class="col-md-12 col-sm-12 col-xs-12 menu2">
-                <div class="col-md-12 col-sm-12 col-xs-12 menu2" style="        margin-top: 80px;
-        left: 0;
-        height: 40px;
-        background-color: #F2F2F2;
-        z-index: 999999999999;">
-                        <div class="col-md-12 col-sm-9 col-xs-12 yukseklik">
-                            <div class="solTaraf" style=" color: black; top: 10%; left: 12%;">
-                                <ul>
-                                    <li><a href="insights_blog.html">Blog</a></li>
-                                    <li><a href="insights_casestudies.html">Case Studies</a></li>
-                                    <li><a href="insights_blog_technology.html">White Papers</a></li>
-                                    <li><a href="index.html">Gallery</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-9 col-sm-9 col-xs-12 yukseklik">
                         <div class="solTaraf">
                             <a href="index.html"><img src="images/logo2.png" class="logo" /></a>
@@ -198,7 +182,7 @@
             <img src="images/insightsBg.png" class="image" />
         </div>
         <div class="container">
-            <div class="keyHeadText">
+            <div class="keyHeadText" id="keyHeadText">
                 <p class="p-left col-xs-12">
                     Insights
                 </p>
@@ -458,6 +442,7 @@
         function myFunction() {
             var x = document.getElementById("myLinks");
             var y = document.getElementById("headText");
+            var y = document.getElementById("keyHeadText");
             if (x.style.display === "block") {
                 x.style.display = "none";
                 y.style.zIndex = "9999";

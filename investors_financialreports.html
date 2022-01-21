@@ -194,8 +194,8 @@
             <img src="images/investorsBg.png" class="image" />
         </div>
         <div class="container">
-            <div class="keyHeadText">
-                <p class="p-left col-xs-12">Financial <br/>Reports</p>
+            <div class="keyHeadText" id="keyHeadText">
+                <p class="p-left col-xs-12">Financial <br />Reports</p>
                 <p class="p-right col-xs-12">Home/Investors/Financial reports...</p>
             </div>
         </div>
@@ -447,6 +447,7 @@
         function myFunction() {
             var x = document.getElementById("myLinks");
             var y = document.getElementById("headText");
+            var y = document.getElementById("keyHeadText");
             if (x.style.display === "block") {
                 x.style.display = "none";
                 y.style.zIndex = "9999";
@@ -455,7 +456,6 @@
                 y.style.zIndex = "-9999";
             }
         }
-
         $(document).ready(function () {
             var x = document.getElementById("boxHeadTxt");
             var y = document.getElementById("boxHeadTxt2");
