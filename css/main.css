@@ -1146,7 +1146,7 @@ hr.new1 {
     font-weight: 800;
     color: #020202;
     border-color: black;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .contact {
@@ -1612,7 +1612,6 @@ box01-blue {
         padding-top: 20px;
         font-size: 20px;
     }
-
     .dropdown-content ul li {
         display: block !important;
         padding: 7px !important;
@@ -1707,7 +1706,7 @@ box01-blue {
         padding-right: 10px;
         padding-bottom: 30px;
     }
-     
+
         .fourPlaced2 .box0 p {
             display: contents;
             float: left;
@@ -1723,7 +1722,6 @@ box01-blue {
         padding-top: 30px;
         font-size: 20px;
     }
-
     .insightsLeft .head {
         position: absolute;
         right: 0;
@@ -1927,7 +1925,6 @@ box01-blue {
         padding-top: 30px;
         font-size: 20px;
     }
-
     .mobileMenu {
         display: block;
     }

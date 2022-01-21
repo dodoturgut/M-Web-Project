@@ -5,6 +5,10 @@
     height: 800px;
 }
 
+.careersImg1{
+    padding: 30px;
+}
+
 .careersImg1 img {
     width: 100%;
 }
@@ -12,6 +16,7 @@
 .careersSection1 {
     display: grid;
     text-align: start;
+    padding: 30px;
 }
 
     .careersSection1 h1 {
@@ -40,9 +45,9 @@
     justify-self: center;
     padding: 50px 0;
 }
-.careersDiv2 div {
-    padding: 15px;
-}
+    .careersDiv2 div {
+        padding: 15px;
+    }
 
 .careersDiv2 h3 {
     padding: 15px;
@@ -178,10 +183,10 @@
         }
 
 
-@media only screen and (max-width: 1831px) {
-}
-
-@media only screen and (max-width: 1204px) {
+@media only screen and (min-width: 993px) {
+    .careersDiv2 div {
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -200,6 +205,9 @@
 
 
 @media only screen and (max-width: 767px) {
+    .careersSection4{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 523px) {
