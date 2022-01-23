@@ -587,7 +587,7 @@ hr.new1 {
     background-color: #E6413C;
     padding: 10%;
     width: 100%;
-    height: 700px;
+    height: 1000px;
     z-index: 99999;
     position: absolute;
 }
@@ -2073,7 +2073,7 @@ box01-blue {
         background-color: #E6413C;
         padding: 10%;
         width: 100%;
-        height: 1250px;
+        height: 2000px;
     }
 
         .footer .copyright {
