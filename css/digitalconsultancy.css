@@ -168,7 +168,7 @@ custList2 .panel {
 }
 
 .navborder li a {
-    border-right: 1px solid white !important;
+    border-right: 1px solid #afadad !important;
     padding-right: 20px;
     color: white !important;
 }
