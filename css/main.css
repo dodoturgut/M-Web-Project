@@ -729,6 +729,12 @@ hr.new1 {
         width: 100%;
     }
 
+    .bg .imageInvestors {
+        height: 450px;
+        max-height: 560px;
+        width: 100%;
+    }
+
     .bg .shadow {
         position: absolute;
     }
