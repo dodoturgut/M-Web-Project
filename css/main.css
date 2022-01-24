@@ -1973,6 +1973,20 @@ box01-blue {
 }
 
 @media only screen and (max-width: 992px) {
+    .footerHead {
+        text-align: center !important;
+    }
+
+    .footerList ul {
+        padding: 0 !important;
+        text-align: center;
+    }
+
+        .footerList ul li {
+            list-style: none;
+            margin: 10px auto;
+        }
+
     .test {
         display: none;
     }
