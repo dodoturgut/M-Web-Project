@@ -1,4 +1,23 @@
-﻿.footerList ul li a {
+﻿.boxFoot {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+    .boxFoot p {
+        font-size: 19px;
+    }
+
+    .boxFoot button {
+        border-radius: 25px;
+        border-style: solid;
+        height: 45px;
+        width: 170px;
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+.footerList ul li a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -40,7 +59,7 @@
     min-width: 1425px;
     height: 528px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 99999;
+    z-index: 9999999999999999999999999;
 }
 
     .dropdown-content .list ul li a {
@@ -568,7 +587,7 @@ hr.new1 {
     background-color: #E6413C;
     padding: 10%;
     width: 100%;
-    height: 500px;
+    height: 1000px;
     z-index: 99999;
     position: absolute;
 }
@@ -616,11 +635,12 @@ hr.new1 {
 }
 
 .menu2 {
-    position: absolute;
+    position: fixed;
     height: 80px;
     z-index: 999;
     background-color: white;
     color: black;
+    z-index: 999999999999;
 }
 
 .menu p {
@@ -706,6 +726,12 @@ hr.new1 {
     .bg .image2 {
         height: 800px !important;
         max-height: 800px;
+        width: 100%;
+    }
+
+    .bg .imageInvestors {
+        height: 450px;
+        max-height: 560px;
         width: 100%;
     }
 
@@ -1612,6 +1638,7 @@ box01-blue {
         padding-top: 20px;
         font-size: 20px;
     }
+
     .dropdown-content ul li {
         display: block !important;
         padding: 7px !important;
@@ -1722,6 +1749,7 @@ box01-blue {
         padding-top: 30px;
         font-size: 20px;
     }
+
     .insightsLeft .head {
         position: absolute;
         right: 0;
@@ -1925,6 +1953,7 @@ box01-blue {
         padding-top: 30px;
         font-size: 20px;
     }
+
     .mobileMenu {
         display: block;
     }
@@ -2044,7 +2073,7 @@ box01-blue {
         background-color: #E6413C;
         padding: 10%;
         width: 100%;
-        height: 1050px;
+        height: 2000px;
     }
 
         .footer .copyright {
