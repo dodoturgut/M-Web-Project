@@ -152,7 +152,7 @@
     height: 100%;
 }
 
-    .careers_ul li {
+    .careers_ul li a {
         width: 100%;
         color: #000;
         background-color: #fff;
@@ -162,20 +162,20 @@
         display: flex;
         align-items: center;
     }
-        .careers_ul li span {
+        .careers_ul li a span {
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .careers_ul li span p {
+        .careers_ul li a span p {
             margin: 0;
             font-size: 25px;
             font-weight: 100;
             margin-left: 25px;
         }
 
-        .careers_ul li span i {
+        .careers_ul li a span i {
             color: #EF4436;
             font-size: 30px;
             float: right;
@@ -224,7 +224,7 @@
         text-align: justify;
     }
 
-    .careers_ul li{
+    .careers_ul li a{
         margin: 10px 0;
     }
         .careers_ul li span p {
