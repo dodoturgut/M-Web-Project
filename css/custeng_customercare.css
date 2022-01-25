@@ -125,6 +125,7 @@
     border-top: 5px solid #EF4436;
     box-shadow: 0px 10px 10px 1px #00000045;
     margin: 15px;
+    background-color: white;
 }
 
     .leftCard > div {
@@ -141,6 +142,7 @@
     width: 100%;
     border-top: 5px solid #66B132;
     box-shadow: 0px 10px 10px 1px #00000045;
+    background-color: white;
 }
 
     .rightCard1 .rightCard1Img {
@@ -157,6 +159,7 @@
     border-top: 5px solid #3E1DA4;
     box-shadow: 0px 10px 10px 1px #00000045;
     margin-top: 20px;
+    background-color: white;
 }
 
     .rightCard2 .rightCard2Img {
