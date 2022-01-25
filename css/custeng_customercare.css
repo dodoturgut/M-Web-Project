@@ -59,9 +59,15 @@
 }
 
 .plusImg {
-    margin-left: 48%;
-    margin-top: 50px;
+    height: auto;
+    text-align: center;
+    width: 100%;
 }
+
+    .plusImg img {
+        position: absolute;
+        bottom: 30px;
+    }
 
 .custSection2 {
     padding: 70px 10%;
