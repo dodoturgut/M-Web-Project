@@ -1,3 +1,16 @@
+.whatwedoGrid1 {
+    background-image: url(../images/whatwedoGrid1.png);
+    background-size: cover;
+}
+.whatwedoGrid2 {
+    background-image: url(../images/whatwedoGrid2.png);
+    background-size: cover;
+}
+.whatwedoGrid3 {
+    background-image: url(../images/whatwedoGrid3.png);
+    background-size: cover;
+}
+
 .textsCX .list ul {
     width: 90%;
 }

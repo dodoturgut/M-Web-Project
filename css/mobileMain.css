@@ -299,7 +299,7 @@
 }
 
 @media only screen and (max-width: 1128px) {
- /*   .insightsLeft .head {
+    /*   .insightsLeft .head {
         font-size: 18px;
     }
 
@@ -307,7 +307,7 @@
         font-size: 16px;
     }*/
 
-  /*  .fourPlaced2 .box0 p {
+    /*  .fourPlaced2 .box0 p {
         text-align: left;
         padding: 50px;
         color: white;
@@ -789,9 +789,10 @@
         font-size: 30px;
     }
 
-    .contactRight img {
+    .contactRight {
         height: 250px;
-        width: 100%;
+        background-image: url(../images/contactRight.png);
+        background-size: cover;
     }
 
     .services .servicesHeader h2 {
