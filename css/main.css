@@ -1,4 +1,9 @@
-﻿.gridDivImage {
+﻿.footer1 .boxFoot {
+    background-color: #f2f2f200;
+    padding-top: 50px;
+}
+
+.gridDivImage {
     background-image: url(../images/empty.png);
     background-size: cover;
 }
