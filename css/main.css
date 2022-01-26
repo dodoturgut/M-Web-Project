@@ -196,7 +196,8 @@
 
 /*CONTAİNERS*/
 .doubleText {
-    width: 90%
+    width: 100%;
+    padding: 0 10%;
 }
 
     .doubleText h2 {
