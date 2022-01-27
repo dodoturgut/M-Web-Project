@@ -37,6 +37,10 @@
     height: 500px;
 }
 
+    /*.custImg1 > div {
+        padding: 0 10%;
+    }*/
+
 .custImg2 {
     width: 150px;
     margin-top: 30px;
@@ -55,7 +59,7 @@
 .custInfo1 {
     color: white;
     font-size: 37px;
-    margin: 0px 10%;
+    /*margin: 0px 10%;*/
 }
 
 .plusImg {
@@ -70,7 +74,7 @@
     }
 
 .custSection2 {
-    padding: 70px 10%;
+    padding: 70px 0;
     display: flex;
     text-align: justify;
 }
@@ -116,7 +120,7 @@
 .custCard {
     display: flex;
     justify-content: center;
-    width: 80%;
+    /*width: 80%;*/
     margin: 50px auto;
 }
 
@@ -198,7 +202,7 @@
 }
 
 .flexible {
-    margin: 50px 10%;
+    margin: 50px auto;
     display: flex;
 }
 
@@ -229,7 +233,7 @@
 
 .custSection4 {
     display: flex;
-    margin: 100px 10%;
+    margin: 100px auto;
 }
 
     .custSection4 h4 {
@@ -275,7 +279,7 @@
 }
 
 .custSection5 {
-    margin: 100px 0;
+    margin: 100px auto;
     display: flex;
 }
 
@@ -290,6 +294,9 @@
 /*.rightCard2Img > img {
     height: 80%;
 }*/
+
+
+
 @media only screen and (max-width: 792px) {
     .custImg2 {
         margin-top: 30px;
@@ -317,6 +324,21 @@
     .flexible{
         display: block;
     }
+
+    .flexLeft {
+        padding: 0;
+    }
+
+        .flexLeft img {
+            width: 100%;
+            margin: 25px 0;
+            padding: 0;
+        }
+
+    .flexRight {
+        padding: 15px 0;
+    }
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -330,7 +352,7 @@
 
         .salesInfo1 {
             margin: 10px !important;
-            padding: 40px;
+            /*padding: 40px;*/
         }
 
         .custSection4 {
@@ -424,10 +446,14 @@
         height: 370px;
     }
 
-    .plusImg img {
-        width: 70px;
-        height: 70px;
-    }
+        .custImg1 > div {
+            padding: 10px;
+        }
+
+        .plusImg img {
+            width: 70px;
+            height: 70px;
+        }
 
     .listImg {
         margin: auto;
@@ -443,7 +469,7 @@
     }
 
     .custCard {
-        width: 90%;
+        width: 95%;
         display: block;
         margin: 30px auto;
     }

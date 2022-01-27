@@ -318,7 +318,7 @@ custList2 .panel {
 
 @media only screen and (max-width: 792px) {
     .flexible {
-        margin: 50px 10%;
+        margin: 20px;
         display: block;
     }
 
@@ -350,6 +350,22 @@ custList2 .panel {
     }
     .operationalThird {
         display: none;
+    }
+
+    custList2 li {
+        font-size: 18px;
+    }
+
+    .custList3 li {
+        font-size: 18px;
+    }
+
+    .custList4 li {
+        font-size: 18px;
+    }
+
+    .custList5 li {
+        font-size: 18px;
     }
 }
 
