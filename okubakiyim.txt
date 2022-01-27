@@ -1,0 +1,35 @@
+**18 ocak içerik Revizeler**
++career  (ilk madde anlaşılmadı)
++collection
++sales
++customer care
++tech support  (yeşil ilk kutu silinecek mi?)
+(contact sayfasına link yönlendirilecek)
++socialmedia
++enterprise solutions
+-consultancy pages (dodo)
++backoffice
+
+-home(index)
+-about
+-insights-inputs
+-collection   (20220105_REACTION_V_1)
+-back office  (20220105 version 1)
+-social (button linkleri)
+-sales (20220105_REACTION_CONTENT_V_1)
+-technology
+-customer engagement
+-investors page
+
+
+**BEKLENENLER**
+-career - ülkelerin linkleri gelecek bu hafta
+email adresleri gelecek(büyük ihtimalle accordionda)
+-
+
+**BAKILACAKLAR**
+-Her sayfadaki banner problemi**
+-Mobil/tablet açılır menu
+-Mobil fontlar hepsi aynı olacak ve text align justify
+-Accordionlar arasında boşluk olacak ve geçiş animasyonu bakılmalı
+-Contact us buttonları linklenecek hepsinde

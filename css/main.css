@@ -1763,7 +1763,6 @@ box01-blue {
     .solTaraf ul li {
         display: inline;
         list-style: unset;
-        padding: 10px;
     }
 }
 
@@ -2472,4 +2471,209 @@ box01-blue {
     .webServices {
         display: none;
     }
+}
+
+
+
+.mobil-menu-opened {
+    max-height:100vh;
+    overflow-y: hidden;
+}
+.mobil-menu-opened-for-html {
+    height:100vh;
+    overflow-y: hidden;
+}
+
+#mobil-menu {
+    position:fixed;
+    height:100vh;
+    width: 100%;
+    top:-115%;
+    left:0;    
+    background:#ffffff;
+    z-index: 999999;
+    transition:.3s ease-out;
+    padding:110px 0 100px;
+    overflow-y: hidden;
+    border-bottom:10px ridge #ef4436;
+    opacity:1;
+}
+.opened{  
+    top:0!important;  
+    left:0%!important;   
+    opacity:1!important; 
+}
+#mobil-menu .menu-list {
+    margin:0px 0 20px;
+    padding:20px 10px 35px;
+    height:70vh;
+    overflow:auto;
+}
+#mobil-menu .menu-list ul {
+    list-style-type: none;
+    padding:0;
+}
+#mobil-menu .menu-list label {
+    color:#f8bc02;
+    padding-left:0;
+}
+#mobil-menu .menu-list ul li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.7;
+    align-items: center;
+    color:black;
+    font-size:2.3rem;
+    font-weight: bold;
+    line-height: 1.7;
+    border-bottom:1px dashed rgba(0,0,0,.03);
+    padding:10px 0;
+    cursor:pointer;
+}
+#mobil-menu .menu-list .items ul li span {
+    color:black;
+    font-size:2.3rem;
+    font-weight: 300;
+    cursor:pointer;
+}
+#mobil-menu .menu-list .items .sub-items, .double-sub-items  {
+    display:none;
+}
+.opened-sub  {
+    display:block!important;
+}
+#mobil-menu .menu-list .items .sub-items li span {
+    color:black;
+    font-size:1.8rem!important;
+    font-weight: 300;
+    cursor:pointer;
+    padding-left:10px;
+}
+#mobil-menu .menu-list .items .sub-items li i {
+    font-size:1rem;
+    margin-right:10px;
+}
+#mobil-menu .menu-list .items .sub-items .double-sub-items li span {
+    color:black;
+    font-size:1.5rem!important;
+    font-weight: 300;
+    cursor:pointer;
+    padding-left:40px;
+}
+#mobil-menu .menu-list ul li i {
+    color:#f8bc02;
+    font-size:1.5rem;
+}
+#mobil-header {
+    display: none;
+    position:fixed;
+    z-index: 9999999;
+    left:0;
+    top:0;
+    width: 100%;   
+    transition: .3s; 
+    border-bottom:10px ridge transparent;
+}
+.mobil-header-scrolled {
+    background:#ffffff;  
+}
+.mobil-menu-opened-for-header {
+    transform:translateX(100%);
+}
+#mobil-header .container .mobil-flex{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0;
+}
+#mobil-header .container .mobil-flex .left img {
+    width:72px;
+    height:78px;
+    padding:10px;
+    transition:.3s ease-out;
+}
+#mobil-header .container .mobil-flex .left .logo-white {
+    display:none;
+}
+#mobil-header .container .mobil-flex .left .logo {
+    display:block;
+}
+#mobil-header .container .mobil-flex .left .logo-scrolled {
+    filter:drop-shadow(2px 4px 6px rgba(0,0,0,.8));
+}
+#mobil-header .container .mobil-flex .white .logo-white {
+    display:block!important;
+}
+#mobil-header .container .mobil-flex .white .logo {
+    display:none!important;
+}
+#mobil-header .container .mobil-flex .left {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#mobil-header .container .mobil-flex .right {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#mobil-header .container .mobil-flex .right .mobile-menu-toggler-div {
+    height:50px;
+    width:50px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background:#ef4436;
+    border:2px solid #fff;
+    border-radius:50%;
+    color:white;
+}
+
+#mobil-header .container .mobil-flex .right i {
+    color:inherit;
+    font-size:2rem;
+    transition:.3s;
+}
+#mobil-header .container .mobil-flex .right .rotated {
+    transform:rotate(-180deg)!important;
+}
+@media only screen and (max-width: 1198px) {
+    #mobil-menu {
+        display: block;
+    }
+    #mobil-header {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 550px) {    
+    #mobil-menu {     
+        width:550px!important; 
+        left: calc(100% - 550px)!important;  
+    }
+    .opened{    
+        left: calc(100% - 550px)!important;  
+        width:550px!important; 
+    }
+    #mobil-menu .container {     
+        width:480px!important; 
+    }
+    #mobil-menu .container .menu-list {      
+        width:450px!important; 
+    }
+    #mobil-menu .container .menu-list .items {      
+        width:400px!important; 
+    }
+}
+
+.alt-sol-yan ul {
+    margin:10px 0 10px 30px!important;
+}
+
+.alt-sol-yan ul li {
+    display: inline;
+    list-style: unset;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 500;
 }
