@@ -2,15 +2,23 @@
     width: 90%;
 }
 
+.person2 {
+    height: 150px !important;
+    padding: 50px;
+}
+
 .person {
     height: 450px;
     padding: 50px;
 }
 
+
     .person .personHeader {
         display: grid;
         justify-content: center;
         text-align: center;
+        max-height: 60px;
+        line-height: 01;
     }
 
         .person .personHeader p {
@@ -27,9 +35,10 @@
         background-color: #072c50;
         text-align: center;
     }
-    .person .personFooter div{
-        height: 100%;
-    }
+
+        .person .personFooter div {
+            height: 100%;
+        }
 
         .person .personFooter p {
             font-size: 22px;
