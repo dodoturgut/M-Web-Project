@@ -222,7 +222,7 @@
 }
 
 .contactSales {
-    width: 90%;
+    /*width: 90%;*/
     margin: auto;
 }
 
@@ -1411,7 +1411,8 @@ box01-blue {
 
 .fourPlaced {
     position: absolute;
-    left: -16.6%;
+    left: -200px;
+    width: 400px;
     z-index: 999;
     top: 28%;
     text-align: center;
@@ -1473,7 +1474,7 @@ box01-blue {
     }
 
     .animation .text {
-        top: 55%;
+        top: 60%;
         position: absolute;
         color: white;
         width: 65%;
@@ -1482,7 +1483,7 @@ box01-blue {
 
     .animation .buttonArea {
         padding: 30px;
-        top: 65%;
+        top: 72%;
         position: absolute;
         left: -13%;
     }
@@ -2201,6 +2202,14 @@ box01-blue {
 }
 
 @media only screen and (max-width: 767px) {
+    .insightContainer {
+        width: 100%;
+        right: 0;
+    }
+    .insight1 {
+        right: 0;
+    }
+
     .insightsLeft .head {
         position: absolute;
         right: 0;
